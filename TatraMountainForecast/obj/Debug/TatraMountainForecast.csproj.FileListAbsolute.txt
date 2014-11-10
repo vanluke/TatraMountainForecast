@@ -22,3 +22,34 @@ C:\Users\lgonciarz\documents\visual studio 2013\Projects\TatraMountainForecast\T
 C:\Users\lgonciarz\documents\visual studio 2013\Projects\TatraMountainForecast\TatraMountainForecast\bin\System.Web.Mvc.xml
 C:\Users\lgonciarz\documents\visual studio 2013\Projects\TatraMountainForecast\TatraMountainForecast\obj\Debug\TatraMountainForecast.dll
 C:\Users\lgonciarz\documents\visual studio 2013\Projects\TatraMountainForecast\TatraMountainForecast\obj\Debug\TatraMountainForecast.pdb
+D:\x\TatraMountainForecase\TatraMountainForecast\bin\TatraMountainForecast.dll.config
+D:\x\TatraMountainForecase\TatraMountainForecast\bin\TatraMountainForecast.dll
+D:\x\TatraMountainForecase\TatraMountainForecast\bin\TatraMountainForecast.pdb
+D:\x\TatraMountainForecase\TatraMountainForecast\bin\Antlr3.Runtime.dll
+D:\x\TatraMountainForecase\TatraMountainForecast\bin\Newtonsoft.Json.dll
+D:\x\TatraMountainForecase\TatraMountainForecast\bin\System.Web.Helpers.dll
+D:\x\TatraMountainForecase\TatraMountainForecast\bin\System.Web.Mvc.dll
+D:\x\TatraMountainForecase\TatraMountainForecast\bin\System.Web.Optimization.dll
+D:\x\TatraMountainForecase\TatraMountainForecast\bin\System.Web.Razor.dll
+D:\x\TatraMountainForecase\TatraMountainForecast\bin\System.Web.Webpages.Deployment.dll
+D:\x\TatraMountainForecase\TatraMountainForecast\bin\System.Web.Webpages.dll
+D:\x\TatraMountainForecase\TatraMountainForecast\bin\System.Web.Webpages.Razor.dll
+D:\x\TatraMountainForecase\TatraMountainForecast\bin\WebGrease.dll
+D:\x\TatraMountainForecase\TatraMountainForecast\bin\Antlr3.Runtime.pdb
+D:\x\TatraMountainForecase\TatraMountainForecast\bin\Newtonsoft.Json.xml
+D:\x\TatraMountainForecase\TatraMountainForecast\bin\System.Web.Optimization.xml
+D:\x\TatraMountainForecase\TatraMountainForecast\bin\System.Web.Razor.xml
+D:\x\TatraMountainForecase\TatraMountainForecast\bin\System.Web.Webpages.xml
+D:\x\TatraMountainForecase\TatraMountainForecast\bin\System.Web.Webpages.Deployment.xml
+D:\x\TatraMountainForecase\TatraMountainForecast\bin\System.Web.Webpages.Razor.xml
+D:\x\TatraMountainForecase\TatraMountainForecast\bin\System.Web.Helpers.xml
+D:\x\TatraMountainForecase\TatraMountainForecast\bin\System.Web.Mvc.xml
+D:\x\TatraMountainForecase\TatraMountainForecast\obj\Debug\TatraMountainForecast.csprojResolveAssemblyReference.cache
+D:\x\TatraMountainForecase\TatraMountainForecast\obj\Debug\TatraMountainForecast.dll
+D:\x\TatraMountainForecase\TatraMountainForecast\obj\Debug\TatraMountainForecast.pdb
+D:\x\TatraMountainForecase\TatraMountainForecast\bin\System.Net.Http.Formatting.dll
+D:\x\TatraMountainForecase\TatraMountainForecast\bin\System.Web.Http.dll
+D:\x\TatraMountainForecase\TatraMountainForecast\bin\System.Web.Http.WebHost.dll
+D:\x\TatraMountainForecase\TatraMountainForecast\bin\System.Net.Http.Formatting.xml
+D:\x\TatraMountainForecase\TatraMountainForecast\bin\System.Web.Http.xml
+D:\x\TatraMountainForecase\TatraMountainForecast\bin\System.Web.Http.WebHost.xml

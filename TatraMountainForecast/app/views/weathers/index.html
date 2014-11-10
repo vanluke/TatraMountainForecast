@@ -1,0 +1,29 @@
+﻿<div class="container" ng-view>
+    <div class="row">
+        <div class="span10">
+            <h2>Weather</h2>
+        </div>
+    </div>
+    <div>
+        <div>
+            <table class="table table-condensed table-hover">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Temperature</th>
+                        <th>Unit</th>
+                        <th>Comments</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repead="weather in weathers">
+                        <td>{{weather.id}}</td>
+                        <td>{{weather.temperature}}</td>
+                        <td>{{weather.unit}}</td>
+                        <td>{{weather.comments}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
