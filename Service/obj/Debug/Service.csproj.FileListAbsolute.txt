@@ -1,0 +1,44 @@
+C:\Users\Łukasz\Documents\Visual Studio 2013\Projects\Praca dyplomowa\TatraMountainForecast\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+C:\Users\Łukasz\Documents\Visual Studio 2013\Projects\Praca dyplomowa\TatraMountainForecast\Service\bin\Debug\Service.dll.config
+C:\Users\Łukasz\Documents\Visual Studio 2013\Projects\Praca dyplomowa\TatraMountainForecast\Service\bin\Debug\Service.dll
+C:\Users\Łukasz\Documents\Visual Studio 2013\Projects\Praca dyplomowa\TatraMountainForecast\Service\bin\Debug\Service.pdb
+C:\Users\Łukasz\Documents\Visual Studio 2013\Projects\Praca dyplomowa\TatraMountainForecast\Service\bin\Debug\EntityFramework.dll
+C:\Users\Łukasz\Documents\Visual Studio 2013\Projects\Praca dyplomowa\TatraMountainForecast\Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Łukasz\Documents\Visual Studio 2013\Projects\Praca dyplomowa\TatraMountainForecast\Service\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Łukasz\Documents\Visual Studio 2013\Projects\Praca dyplomowa\TatraMountainForecast\Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Łukasz\Documents\Visual Studio 2013\Projects\Praca dyplomowa\TatraMountainForecast\Service\bin\Debug\Model.dll
+C:\Users\Łukasz\Documents\Visual Studio 2013\Projects\Praca dyplomowa\TatraMountainForecast\Service\bin\Debug\Model.pdb
+C:\Users\Łukasz\Documents\Visual Studio 2013\Projects\Praca dyplomowa\TatraMountainForecast\Service\bin\Debug\EntityFramework.xml
+C:\Users\Łukasz\Documents\Visual Studio 2013\Projects\Praca dyplomowa\TatraMountainForecast\Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Łukasz\Documents\Visual Studio 2013\Projects\Praca dyplomowa\TatraMountainForecast\Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Łukasz\Documents\Visual Studio 2013\Projects\Praca dyplomowa\TatraMountainForecast\Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Łukasz\Documents\Visual Studio 2013\Projects\Praca dyplomowa\TatraMountainForecast\Service\obj\Debug\Service.dll
+C:\Users\Łukasz\Documents\Visual Studio 2013\Projects\Praca dyplomowa\TatraMountainForecast\Service\obj\Debug\Service.pdb
+C:\Users\Łukasz\Documents\Visual Studio 2013\Projects\Praca dyplomowa\TatraMountainForecast\Service\obj\Debug\Service.Migrations.Init.resources
+C:\Users\Łukasz\Documents\Visual Studio 2013\Projects\Praca dyplomowa\TatraMountainForecast\Service\obj\Debug\Service.csproj.GenerateResource.Cache
+C:\Users\Łukasz\Documents\Visual Studio 2013\Projects\Praca dyplomowa\TatraMountainForecast\Service\obj\Debug\Service.Migrations.ReInit.resources
+C:\Users\Łukasz\Documents\Visual Studio 2013\Projects\Praca dyplomowa\TatraMountainForecast\Service\obj\Debug\Service.Migrations.X.resources
+C:\Users\Łukasz\Documents\Visual Studio 2013\Projects\Praca dyplomowa\TatraMountainForecast\Service\obj\Debug\Service.Migrations.Y.resources
+D:\Tmp\tmfc\TatraMountainForecase\Service\bin\Debug\Service.dll.config
+D:\Tmp\tmfc\TatraMountainForecase\Service\bin\Debug\Service.dll
+D:\Tmp\tmfc\TatraMountainForecase\Service\bin\Debug\Service.pdb
+D:\Tmp\tmfc\TatraMountainForecase\Service\bin\Debug\EntityFramework.dll
+D:\Tmp\tmfc\TatraMountainForecase\Service\bin\Debug\EntityFramework.SqlServer.dll
+D:\Tmp\tmfc\TatraMountainForecase\Service\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Tmp\tmfc\TatraMountainForecase\Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Tmp\tmfc\TatraMountainForecase\Service\bin\Debug\Model.dll
+D:\Tmp\tmfc\TatraMountainForecase\Service\bin\Debug\Newtonsoft.Json.dll
+D:\Tmp\tmfc\TatraMountainForecase\Service\bin\Debug\Model.pdb
+D:\Tmp\tmfc\TatraMountainForecase\Service\bin\Debug\EntityFramework.xml
+D:\Tmp\tmfc\TatraMountainForecase\Service\bin\Debug\EntityFramework.SqlServer.xml
+D:\Tmp\tmfc\TatraMountainForecase\Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Tmp\tmfc\TatraMountainForecase\Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Tmp\tmfc\TatraMountainForecase\Service\bin\Debug\Newtonsoft.Json.xml
+D:\Tmp\tmfc\TatraMountainForecase\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+D:\Tmp\tmfc\TatraMountainForecase\Service\obj\Debug\Service.Migrations.Init.resources
+D:\Tmp\tmfc\TatraMountainForecase\Service\obj\Debug\Service.Migrations.ReInit.resources
+D:\Tmp\tmfc\TatraMountainForecase\Service\obj\Debug\Service.Migrations.X.resources
+D:\Tmp\tmfc\TatraMountainForecase\Service\obj\Debug\Service.Migrations.Y.resources
+D:\Tmp\tmfc\TatraMountainForecase\Service\obj\Debug\Service.csproj.GenerateResource.Cache
+D:\Tmp\tmfc\TatraMountainForecase\Service\obj\Debug\Service.dll
+D:\Tmp\tmfc\TatraMountainForecase\Service\obj\Debug\Service.pdb

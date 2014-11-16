@@ -1,0 +1,32 @@
+C:\Users\Łukasz\Documents\Visual Studio 2013\Projects\Praca dyplomowa\TatraMountainForecast\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Users\Łukasz\Documents\Visual Studio 2013\Projects\Praca dyplomowa\TatraMountainForecast\Model\bin\Debug\Model.dll.config
+C:\Users\Łukasz\Documents\Visual Studio 2013\Projects\Praca dyplomowa\TatraMountainForecast\Model\bin\Debug\Model.dll
+C:\Users\Łukasz\Documents\Visual Studio 2013\Projects\Praca dyplomowa\TatraMountainForecast\Model\bin\Debug\Model.pdb
+C:\Users\Łukasz\Documents\Visual Studio 2013\Projects\Praca dyplomowa\TatraMountainForecast\Model\bin\Debug\EntityFramework.dll
+C:\Users\Łukasz\Documents\Visual Studio 2013\Projects\Praca dyplomowa\TatraMountainForecast\Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Łukasz\Documents\Visual Studio 2013\Projects\Praca dyplomowa\TatraMountainForecast\Model\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Łukasz\Documents\Visual Studio 2013\Projects\Praca dyplomowa\TatraMountainForecast\Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Łukasz\Documents\Visual Studio 2013\Projects\Praca dyplomowa\TatraMountainForecast\Model\bin\Debug\EntityFramework.xml
+C:\Users\Łukasz\Documents\Visual Studio 2013\Projects\Praca dyplomowa\TatraMountainForecast\Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Łukasz\Documents\Visual Studio 2013\Projects\Praca dyplomowa\TatraMountainForecast\Model\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Łukasz\Documents\Visual Studio 2013\Projects\Praca dyplomowa\TatraMountainForecast\Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Łukasz\Documents\Visual Studio 2013\Projects\Praca dyplomowa\TatraMountainForecast\Model\obj\Debug\Model.dll
+C:\Users\Łukasz\Documents\Visual Studio 2013\Projects\Praca dyplomowa\TatraMountainForecast\Model\obj\Debug\Model.pdb
+C:\Users\Łukasz\Documents\Visual Studio 2013\Projects\Praca dyplomowa\TatraMountainForecast\Model\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Łukasz\Documents\Visual Studio 2013\Projects\Praca dyplomowa\TatraMountainForecast\Model\bin\Debug\Newtonsoft.Json.xml
+D:\Tmp\tmfc\TatraMountainForecase\Model\bin\Debug\Model.dll.config
+D:\Tmp\tmfc\TatraMountainForecase\Model\bin\Debug\Model.dll
+D:\Tmp\tmfc\TatraMountainForecase\Model\bin\Debug\Model.pdb
+D:\Tmp\tmfc\TatraMountainForecase\Model\bin\Debug\EntityFramework.dll
+D:\Tmp\tmfc\TatraMountainForecase\Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\Tmp\tmfc\TatraMountainForecase\Model\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Tmp\tmfc\TatraMountainForecase\Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Tmp\tmfc\TatraMountainForecase\Model\bin\Debug\Newtonsoft.Json.dll
+D:\Tmp\tmfc\TatraMountainForecase\Model\bin\Debug\EntityFramework.xml
+D:\Tmp\tmfc\TatraMountainForecase\Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\Tmp\tmfc\TatraMountainForecase\Model\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Tmp\tmfc\TatraMountainForecase\Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Tmp\tmfc\TatraMountainForecase\Model\bin\Debug\Newtonsoft.Json.xml
+D:\Tmp\tmfc\TatraMountainForecase\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+D:\Tmp\tmfc\TatraMountainForecase\Model\obj\Debug\Model.dll
+D:\Tmp\tmfc\TatraMountainForecase\Model\obj\Debug\Model.pdb

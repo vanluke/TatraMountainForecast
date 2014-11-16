@@ -1,9 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TatraMountainForecast", "TatraMountainForecast\TatraMountainForecast.csproj", "{C85A1F46-D267-4409-8031-6F34651F8EBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{26F10D21-E224-4BE0-BF6A-AE7E8A813BD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{FDCA5B8B-46DD-4B81-9853-5F6319C4D5F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{19FEBF60-A4F0-40C3-916E-63A1F7137AF0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{C85A1F46-D267-4409-8031-6F34651F8EBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C85A1F46-D267-4409-8031-6F34651F8EBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C85A1F46-D267-4409-8031-6F34651F8EBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26F10D21-E224-4BE0-BF6A-AE7E8A813BD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26F10D21-E224-4BE0-BF6A-AE7E8A813BD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26F10D21-E224-4BE0-BF6A-AE7E8A813BD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26F10D21-E224-4BE0-BF6A-AE7E8A813BD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDCA5B8B-46DD-4B81-9853-5F6319C4D5F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDCA5B8B-46DD-4B81-9853-5F6319C4D5F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDCA5B8B-46DD-4B81-9853-5F6319C4D5F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDCA5B8B-46DD-4B81-9853-5F6319C4D5F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19FEBF60-A4F0-40C3-916E-63A1F7137AF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19FEBF60-A4F0-40C3-916E-63A1F7137AF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19FEBF60-A4F0-40C3-916E-63A1F7137AF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19FEBF60-A4F0-40C3-916E-63A1F7137AF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
