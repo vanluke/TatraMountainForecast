@@ -67,11 +67,13 @@
     <Compile Include="Implementation\ExtenedWind.cs" />
     <Compile Include="Implementation\Forecast.cs" />
     <Compile Include="Implementation\Night.cs" />
+    <Compile Include="Implementation\UserLocation.cs" />
     <Compile Include="Implementation\Weather.cs" />
     <Compile Include="Implementation\Weathers.cs" />
     <Compile Include="Implementation\Wind.cs" />
+    <Compile Include="Interfaces\IUserLocation.cs" />
     <Compile Include="Interfaces\IWether.cs" />
-    <Compile Include="Interfaces\IWetherService.cs" />
+    <Compile Include="Interfaces\IWeatherService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
