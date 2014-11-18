@@ -118,6 +118,7 @@
     <Content Include="app\app.js" />
     <Content Include="app\controllers\weathers-controller.js" />
     <Content Include="app\controllers\weathers-repository.js" />
+    <Content Include="app\getLocation.js" />
     <Content Include="app\register-module.js" />
     <Content Include="app\views\weathers\index.html" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -896,6 +897,7 @@
     <Content Include="Scripts\jquery-2.1.1.js" />
     <Content Include="Scripts\jquery-2.1.1.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="index.html" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -930,6 +932,16 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{fdca5b8b-46dd-4b81-9853-5f6319c4d5f7}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Service\Service.csproj">
+      <Project>{19febf60-a4f0-40c3-916e-63a1f7137af0}</Project>
+      <Name>Service</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

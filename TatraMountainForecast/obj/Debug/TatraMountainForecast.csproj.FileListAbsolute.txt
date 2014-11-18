@@ -119,3 +119,15 @@ D:\New folder\TAi\TatraMountainForecase\TatraMountainForecast\bin\EntityFramewor
 D:\New folder\TAi\TatraMountainForecase\TatraMountainForecast\bin\EntityFramework.SqlServer.dll
 D:\New folder\TAi\TatraMountainForecase\TatraMountainForecast\bin\EntityFramework.xml
 D:\New folder\TAi\TatraMountainForecase\TatraMountainForecast\bin\EntityFramework.SqlServer.xml
+D:\Tmp\tmfc\TatraMountainForecase\TatraMountainForecast\bin\EntityFramework.dll
+D:\Tmp\tmfc\TatraMountainForecase\TatraMountainForecast\bin\EntityFramework.SqlServer.dll
+D:\Tmp\tmfc\TatraMountainForecase\TatraMountainForecast\bin\Model.dll
+D:\Tmp\tmfc\TatraMountainForecase\TatraMountainForecast\bin\Service.dll
+D:\Tmp\tmfc\TatraMountainForecase\TatraMountainForecast\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Tmp\tmfc\TatraMountainForecase\TatraMountainForecast\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Tmp\tmfc\TatraMountainForecase\TatraMountainForecast\bin\Model.pdb
+D:\Tmp\tmfc\TatraMountainForecase\TatraMountainForecast\bin\Service.pdb
+D:\Tmp\tmfc\TatraMountainForecase\TatraMountainForecast\bin\EntityFramework.xml
+D:\Tmp\tmfc\TatraMountainForecase\TatraMountainForecast\bin\EntityFramework.SqlServer.xml
+D:\Tmp\tmfc\TatraMountainForecase\TatraMountainForecast\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Tmp\tmfc\TatraMountainForecase\TatraMountainForecast\bin\Microsoft.AspNet.Identity.EntityFramework.xml

@@ -66,11 +66,15 @@
     <Compile Include="Implementation\Day.cs" />
     <Compile Include="Implementation\ExtenedWind.cs" />
     <Compile Include="Implementation\Forecast.cs" />
+    <Compile Include="Implementation\Geolocation.cs" />
+    <Compile Include="Implementation\IPLocation.cs" />
     <Compile Include="Implementation\Night.cs" />
     <Compile Include="Implementation\UserLocation.cs" />
     <Compile Include="Implementation\Weather.cs" />
     <Compile Include="Implementation\Weathers.cs" />
     <Compile Include="Implementation\Wind.cs" />
+    <Compile Include="Interfaces\IGeolocation.cs" />
+    <Compile Include="Interfaces\IIPLocation.cs" />
     <Compile Include="Interfaces\IUserLocation.cs" />
     <Compile Include="Interfaces\IWether.cs" />
     <Compile Include="Interfaces\IWeatherService.cs" />

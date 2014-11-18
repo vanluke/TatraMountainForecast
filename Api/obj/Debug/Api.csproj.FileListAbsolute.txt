@@ -195,3 +195,5 @@ D:\New folder\TAi\TatraMountainForecase\Api\obj\Debug\Api.dll
 D:\New folder\TAi\TatraMountainForecase\Api\obj\Debug\Api.pdb
 D:\New folder\TAi\TatraMountainForecase\Api\bin\Service.dll
 D:\New folder\TAi\TatraMountainForecase\Api\bin\Service.pdb
+D:\Tmp\tmfc\TatraMountainForecase\Api\bin\Service.dll
+D:\Tmp\tmfc\TatraMountainForecase\Api\bin\Service.pdb
