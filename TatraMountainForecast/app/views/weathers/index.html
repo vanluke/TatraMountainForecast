@@ -1,4 +1,4 @@
-﻿<div class="container" ng-view>
+﻿<div class="container">
     <div class="row">
         <div class="span10">
             <h2>Weather</h2>
@@ -16,11 +16,11 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr ng-repead="weather in weathers">
-                        <td>{{weather.id}}</td>
-                        <td>{{weather.temperature}}</td>
-                        <td>{{weather.unit}}</td>
-                        <td>{{weather.comments}}</td>
+                    <tr ng-repead="w in Weathers.CurrentWeather">
+                        <td>{{w.Humidity}}</td>
+                        <td>{{w.Pressure}}</td>
+                        <td>{{w.Code}}</td>
+                        <td>{{w.Comments}}</td>
                     </tr>
                 </tbody>
             </table>

@@ -1,4 +1,4 @@
 ﻿'use strict';
-angular.module("app").controller("WeathersController", function ($scope, weatherRepository) {
+angular.module("app").controller("Weathers2Controller", function ($scope, weatherRepository) {
     $scope.instructors = weatherRepository.get();
 });

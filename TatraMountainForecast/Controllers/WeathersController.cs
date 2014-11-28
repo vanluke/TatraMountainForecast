@@ -1,15 +1,37 @@
-﻿using System.Collections.Generic;
-using System.Threading.Tasks;
-using System.Web.Http;
-using TatraMountainForecast.Models;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.Mvc;
 
 namespace TatraMountainForecast.Controllers
 {
-    public class WeathersController : ApiController
+    public class WeathersController : Controller
     {
-        public async Task<IEnumerable<Weather>> Get()
+        // GET: Weather
+        //public ActionResult Weather()
+        //{
+        //    return View("~/app/views/weathers/index.html");
+        //}
+
+        //public ActionResult Index()
+        //{
+        //    return View();
+        //}
+
+        public ActionResult Two()
         {
-            return WeatherRepository.CreateWeatherList();
+            return View();
+        }
+
+        public ActionResult Three()
+        {
+            return View();
+        }
+
+        public ActionResult One()
+        {
+            return View();
         }
     }
 }

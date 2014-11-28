@@ -13,10 +13,12 @@ using Service;
 namespace Api.Controllers
 {
     public class WeathersController : BaseApiController
-    {  
-        // GET api/values
-        public async Task<HttpResponseMessage> Get(Geolocation geolocation) // two days weathres http://www.myweather2.com/developer/forecast.ashx?uac=0HDgjFKVeJ&query=52.2,21&temp_unit=c&ws_unit=kph
+    {
+        // GET api/values//Geolocation geolocation
+        public async Task<HttpResponseMessage> Get() // two days weathres http://www.myweather2.com/developer/forecast.ashx?uac=0HDgjFKVeJ&query=52.2,21&temp_unit=c&ws_unit=kph
         {
+            var geolocation = new Geolocation("50.0566531", "19.9229965");
+
             Uri uri = new Uri(_url);
             using (var client = new HttpClient())
             {

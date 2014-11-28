@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" ng-app="AwesomeAngularMVCApp" ng-controller="LandingPageController">
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="app" >
 <head>
     <title></title>
     <link href="../Content/bootstrap.min.css" rel="stylesheet" />

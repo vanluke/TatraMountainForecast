@@ -116,6 +116,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\app.js" />
+    <Content Include="app\controllers\landing-page-controller.js" />
     <Content Include="app\controllers\weathers-controller.js" />
     <Content Include="app\controllers\weathers-repository.js" />
     <Content Include="app\getLocation.js" />
@@ -897,7 +898,6 @@
     <Content Include="Scripts\jquery-2.1.1.js" />
     <Content Include="Scripts\jquery-2.1.1.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
-    <Content Include="index.html" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -923,6 +923,12 @@
     <Content Include="Views\web.config" />
     <Content Include="packages.config" />
     <Content Include="Scripts\version.json" />
+    <Content Include="Views\Weathers\WeathersTwo.cshtml" />
+    <Content Include="Views\Weathers\WeathersThree.cshtml" />
+    <Content Include="Views\Weathers\WeathersOne.cshtml" />
+    <Content Include="Views\Weathers\Two.cshtml" />
+    <Content Include="Views\Weathers\Three.cshtml" />
+    <Content Include="Views\Weathers\One.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -932,6 +938,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Weather\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Model\Model.csproj">

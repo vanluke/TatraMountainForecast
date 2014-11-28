@@ -20,11 +20,11 @@ namespace App_Start
                 "~/Scripts/angular-resource.js"
                 ));
 
-            bundles.Add(new ScriptBundle("~/bundles/app").Include(
+            bundles.Add(new ScriptBundle("~/bundles/app").Include(//.IncludeDirectory("~/app/controllers", "*js")
                 "~/app/app.js",
-                "~/app/register-module.js",
-                "~/app/controllers/weathers-controller.js"
+                "~/app/register-module.js"
                 ));
+            BundleTable.EnableOptimizations = true;
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                 "~/Content/bootstrap.css",
