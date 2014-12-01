@@ -42,12 +42,6 @@ D:\Tmp\tmfc\TatraMountainForecase\Service\obj\Debug\Service.Migrations.Y.resourc
 D:\Tmp\tmfc\TatraMountainForecase\Service\obj\Debug\Service.csproj.GenerateResource.Cache
 D:\Tmp\tmfc\TatraMountainForecase\Service\obj\Debug\Service.dll
 D:\Tmp\tmfc\TatraMountainForecase\Service\obj\Debug\Service.pdb
-D:\New folder\TAi\TatraMountainForecase\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
-D:\New folder\TAi\TatraMountainForecase\Service\obj\Debug\Service.Migrations.Init.resources
-D:\New folder\TAi\TatraMountainForecase\Service\obj\Debug\Service.Migrations.ReInit.resources
-D:\New folder\TAi\TatraMountainForecase\Service\obj\Debug\Service.Migrations.X.resources
-D:\New folder\TAi\TatraMountainForecase\Service\obj\Debug\Service.Migrations.Y.resources
-D:\New folder\TAi\TatraMountainForecase\Service\obj\Debug\Service.csproj.GenerateResource.Cache
 D:\New folder\TAi\TatraMountainForecase\Service\bin\Debug\Service.dll.config
 D:\New folder\TAi\TatraMountainForecase\Service\bin\Debug\Service.dll
 D:\New folder\TAi\TatraMountainForecase\Service\bin\Debug\Service.pdb
@@ -63,5 +57,12 @@ D:\New folder\TAi\TatraMountainForecase\Service\bin\Debug\EntityFramework.SqlSer
 D:\New folder\TAi\TatraMountainForecase\Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 D:\New folder\TAi\TatraMountainForecase\Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 D:\New folder\TAi\TatraMountainForecase\Service\bin\Debug\Newtonsoft.Json.xml
+D:\New folder\TAi\TatraMountainForecase\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+D:\New folder\TAi\TatraMountainForecase\Service\obj\Debug\Service.Migrations.Init.resources
+D:\New folder\TAi\TatraMountainForecase\Service\obj\Debug\Service.Migrations.ReInit.resources
+D:\New folder\TAi\TatraMountainForecase\Service\obj\Debug\Service.Migrations.X.resources
+D:\New folder\TAi\TatraMountainForecase\Service\obj\Debug\Service.Migrations.Y.resources
+D:\New folder\TAi\TatraMountainForecase\Service\obj\Debug\Service.Migrations.Z.resources
+D:\New folder\TAi\TatraMountainForecase\Service\obj\Debug\Service.csproj.GenerateResource.Cache
 D:\New folder\TAi\TatraMountainForecase\Service\obj\Debug\Service.dll
 D:\New folder\TAi\TatraMountainForecase\Service\obj\Debug\Service.pdb

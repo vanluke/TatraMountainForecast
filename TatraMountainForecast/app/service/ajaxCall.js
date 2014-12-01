@@ -1,0 +1,68 @@
+﻿define(['app'], function (app) {
+
+    app.register.service('ajaxCall', ['$http', function ($http) {
+
+        // setting timeout of 1 second to simulate a busy server.
+
+        this.AjaxPost = function (data, route, successFunction, errorFunction) {
+            setTimeout(function () {
+                $http.post(route, data).success(function (response, status, headers, config) {
+                    successFunction(response, status);
+                }).error(function (response) {
+                    if (response.IsAuthenicated == false) { window.location = "/index.html"; }
+                    errorFunction(response);
+                });
+            }, 1000);
+
+        }
+
+        this.AjaxPostWithNoAuthenication = function (data, route, successFunction, errorFunction) {
+            setTimeout(function () {
+                $http.post(route, data).success(function (response, status, headers, config) {
+                    successFunction(response, status);
+                }).error(function (response) {
+                    errorFunction(response);
+                });
+            }, 1000);
+
+        }
+
+        this.AjaxGet = function (route, successFunction, errorFunction) {
+            setTimeout(function () {
+                $http({ method: 'GET', url: route }).success(function (response, status, headers, config) {
+                    successFunction(response, status);
+                }).error(function (response) {
+                    if (response.IsAuthenicated == false) { window.location = "/index.html"; }
+                    errorFunction(response);
+                });
+            }, 1000);
+
+        }
+
+        this.AjaxGetWithData = function (data, route, successFunction, errorFunction) {
+            setTimeout(function () {
+                $http({ method: 'GET', url: route, params: data }).success(function (response, status, headers, config) {
+                    successFunction(response, status);
+                }).error(function (response) {
+                    if (response.IsAuthenicated == false) { window.location = "/index.html"; }
+                    errorFunction(response);
+                });
+            }, 1000);
+
+        }
+
+
+        this.AjaxGetWithNoBlock = function (data, route, successFunction, errorFunction) {
+            setTimeout(function () {
+                $http({ method: 'GET', url: route, params: data }).success(function (response, status, headers, config) {
+                    successFunction(response, status);
+                }).error(function (response) {;
+                    if (response.IsAuthenicated == false) { window.location = "/index.html"; }
+                    errorFunction(response);
+                });
+            }, 0);
+        }
+    }]);
+});
+
+

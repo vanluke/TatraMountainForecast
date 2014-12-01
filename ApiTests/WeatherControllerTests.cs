@@ -18,7 +18,7 @@ namespace ApiTests
             controller.Request = new HttpRequestMessage();
             controller.Configuration = new HttpConfiguration();
             var coord = new Geolocation("50.0566531", "19.9229965");
-            var fetchData = await controller.Get(coord);
+            var fetchData = controller.Get("");
             var reality = await fetchData.Content.ReadAsAsync<Weathers>();
 
 

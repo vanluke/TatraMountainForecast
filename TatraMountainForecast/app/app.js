@@ -30,7 +30,7 @@ app.config(['$routeProvider',
 
 var app = angular.module('app', ['ngRoute']);
 
-app.controller('LandingPageController', LandingPageController);
+
 
 var configFunction = function ($routeProvider) {
     $routeProvider.

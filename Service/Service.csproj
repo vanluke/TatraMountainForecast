@@ -69,6 +69,10 @@
     <Compile Include="Migrations\201411041259194_Y.Designer.cs">
       <DependentUpon>201411041259194_Y.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201412010625298_Z.cs" />
+    <Compile Include="Migrations\201412010625298_Z.Designer.cs">
+      <DependentUpon>201412010625298_Z.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WeatherService.cs" />
@@ -95,6 +99,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201411041259194_Y.resx">
       <DependentUpon>201411041259194_Y.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201412010625298_Z.resx">
+      <DependentUpon>201412010625298_Z.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

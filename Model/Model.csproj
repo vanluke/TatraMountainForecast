@@ -62,6 +62,7 @@
     <Compile Include="Implementation\ApplicationUserClaim.cs" />
     <Compile Include="Implementation\ApplicationUserLogin.cs" />
     <Compile Include="Implementation\ApplicationUserRole.cs" />
+    <Compile Include="Implementation\CityPossition.cs" />
     <Compile Include="Implementation\CurrentWeather.cs" />
     <Compile Include="Implementation\Day.cs" />
     <Compile Include="Implementation\ExtenedWind.cs" />
@@ -73,6 +74,7 @@
     <Compile Include="Implementation\Weather.cs" />
     <Compile Include="Implementation\Weathers.cs" />
     <Compile Include="Implementation\Wind.cs" />
+    <Compile Include="Interfaces\ICityPossition.cs" />
     <Compile Include="Interfaces\IGeolocation.cs" />
     <Compile Include="Interfaces\IIPLocation.cs" />
     <Compile Include="Interfaces\IUserLocation.cs" />

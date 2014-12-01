@@ -121,6 +121,8 @@
     <Content Include="app\controllers\weathers-repository.js" />
     <Content Include="app\getLocation.js" />
     <Content Include="app\register-module.js" />
+    <Content Include="app\service\ajaxCall.js" />
+    <Content Include="app\service\weather-service.js" />
     <Content Include="app\views\weathers\index.html" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -898,6 +900,8 @@
     <Content Include="Scripts\jquery-2.1.1.js" />
     <Content Include="Scripts\jquery-2.1.1.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\r.js" />
+    <Content Include="Scripts\require.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
