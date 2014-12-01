@@ -2,7 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
+using System.Net.Http.Formatting;
+using System.Net.Http.Headers;
 using System.Web.Http;
+using Api.App_Start;
 using Microsoft.Owin.Security.OAuth;
 using Newtonsoft.Json.Serialization;
 
@@ -10,6 +13,13 @@ namespace Api
 {
     public static class WebApiConfig
     {
+        public class TextPlainXmlMediaTypeFormatter : XmlMediaTypeFormatter
+        {
+            public TextPlainXmlMediaTypeFormatter()
+            {
+                SupportedMediaTypes.Add(new MediaTypeHeaderValue("text/plain"));
+            }
+        }
         public static void Register(HttpConfiguration config)
         {
             // Web API configuration and services
@@ -25,6 +35,9 @@ namespace Api
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
+            GlobalConfiguration.Configuration.Formatters.Insert(0, new TextMediaTypeFormatter());
+            //config.Formatters.Add(new TextMediaTypeFormatter());
+            //config.Formatters.Add(new TextPlainXmlMediaTypeFormatter());
         }
     }
 }

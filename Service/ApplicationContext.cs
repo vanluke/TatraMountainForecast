@@ -30,6 +30,6 @@ namespace Service
         public DbSet<ApplicationRole> Roles { get; set; }
         public DbSet<ApplicationUserClaim> UserClaims { get; set; }
         public DbSet<ApplicationUserLogin> UserLogins { get; set; }
-        public DbSet<CityPossition> CityPossitions { get; set; } 
+        public DbSet<CityPossition> CityPossitions { get; set; }
     }
 }

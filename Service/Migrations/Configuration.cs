@@ -106,7 +106,7 @@ namespace Service.Migrations
                 new CityPossition("Lubin", "51,24", "16,11"),
                 new CityPossition("Lukow", "51,55", "22,23"),
                 new CityPossition("Lyna", "54,37", "21,14"),
-                new CityPossition("Malbork", "54,0,", "19,01"),
+                new CityPossition("Malbork", "54,0", "19,01"),
                 new CityPossition("Mazurski Pojezierze", "53,5", "21"),
                 new CityPossition("Miedzychod", "52,35", "15,53"),
                 new CityPossition("Miedzyrzec Podlaski", "51,58", "22,45"),
@@ -181,8 +181,7 @@ namespace Service.Migrations
                 new CityPossition("Walbrzych", "50,45", "16,18"),
                 new CityPossition("Walcz", "53,17", "16,27"),
                 new CityPossition("Warsaw-Warszawa", "52,13", "21"),
-                new CityPossition("Warta", "52,,5", "14,39"),
-                new CityPossition("Warthe-Warta", "52,,5", "14,39"),
+                new CityPossition("Warta", "52,5", "14,39"),
                 new CityPossition("Wejherowo", "54,35", "18,12"),
                 new CityPossition("Wisla", "54,22", "18,55"),
                 new CityPossition("Wkra", "52,27", "20,44"),
@@ -202,12 +201,14 @@ namespace Service.Migrations
                 new CityPossition("Zywiec", "49,42", "19,1")
             };
 
-            cityPossitions.ForEach(v => 
-            { v.Latitude.Replace(",", ".");
-              v.Location.Replace(",", ".");
+            cityPossitions.ForEach(v =>
+            {
+                v.Latitude = v.Latitude.Replace(",", ".");
+                v.Longitude = v.Longitude.Replace(",", ".");
             });
-
+           
             context.CityPossitions.AddRange(cityPossitions);
+            context.SaveChanges();
         }
     }
 }

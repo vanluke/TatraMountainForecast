@@ -1,13 +1,16 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
 using System.Web;
+using System.Web.Helpers;
 using System.Web.Http;
 using Model.Implementation;
 using Model.Interfaces;
+using Newtonsoft.Json;
 using Service;
 
 namespace Api.Controllers
@@ -18,7 +21,7 @@ namespace Api.Controllers
         public async Task<HttpResponseMessage> Get() // two days weathres http://www.myweather2.com/developer/forecast.ashx?uac=0HDgjFKVeJ&query=52.2,21&temp_unit=c&ws_unit=kph
         {
             var geolocation = new Geolocation("50.0566531", "19.9229965");
-
+           // await DoJob();
             Uri uri = new Uri(_url);
             using (var client = new HttpClient())
             {
@@ -36,6 +39,49 @@ namespace Api.Controllers
             return Request.CreateResponse(HttpStatusCode.BadRequest, "Unable to fetch weather data");
         }
 
+        private async Task DoJob()
+        {
+            ApplicationContext context = new ApplicationContext();
+
+            Uri uri = new Uri(_url);
+            var clientData = context.CityPossitions.ToList();
+            var wlist = new List<Model.Implementation.Weather>();
+            using (var client = new HttpClient())
+            {
+                try
+                {
+                    client.BaseAddress = new Uri("http://www.myweather2.com/developer/");
+                    client.DefaultRequestHeaders.Accept.Clear();
+             
+                    client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+                    client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("text/plain"));
+                    foreach (var one in clientData)
+                    {
+                        var str = String.Format(
+                            "forecast.ashx?uac=0HDgjFKVeJ&output=json&query={0},{1}&temp_unit=c&ws_unit=kph",
+                            one.Latitude, one.Longitude);
+                        HttpResponseMessage response = await client.GetAsync(str);
+                        if (response.IsSuccessStatusCode)
+                        {
+                            var retval = await response.Content.ReadAsAsync<Weathers>();
+                            var weather = new Model.Implementation.Weather(one.Location, retval.Weather.CurrentWeather,
+                                retval.Weather.Forecasts);
+                            wlist.Add(weather);
+                        }
+
+                    }
+                }
+                catch (Exception ex)
+                {
+                    
+                    throw;
+                }
+               
+
+                var ser  = JsonConvert.SerializeObject(wlist);
+            }
+        }
+
         [Route("api/Weathers/{day}")]
         public HttpResponseMessage Get(string day)
         {
@@ -47,7 +93,7 @@ namespace Api.Controllers
             _weatherService = new WeatherService();
         }
 
-        private readonly IWeatherService _weatherService; 
+        private readonly IWeatherService _weatherService;
 
         public string CurrentLocalization { get; set; }
 
