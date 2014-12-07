@@ -1,22 +1,33 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
+using Model.Interfaces;
 using Newtonsoft.Json;
+using System.ComponentModel.DataAnnotations;
 
 namespace Model.Implementation
 {
+     [DataContract(Name = "forecast")]
     public class Forecast
     {
+        public Forecast()
+        {
+            Days = new List<Day>();
+            Nights = new List<Night>();
+        }
+        [Key]
+        public int Id { get; set; }
         [JsonProperty(PropertyName = "date")]
         public string Date { get; set; }
         [JsonProperty(PropertyName = "day")]
-        public List<Day> Days { get; set; }
+        public IEnumerable<Day> Days { get; set; }
         [JsonProperty(PropertyName = "day_max_temp")]
         public string DayMaxTemperature { get; set; }
         [JsonProperty(PropertyName = "night")]
-        public List<Night> Nights { get; set; }
+        public IEnumerable<Night> Nights { get; set; }
         [JsonProperty(PropertyName = "night_min_temp")]
         public string NightMinTemperature { get; set; }
         [JsonProperty(PropertyName = "temp_unit")]

@@ -31,5 +31,7 @@ namespace Service
         public DbSet<ApplicationUserClaim> UserClaims { get; set; }
         public DbSet<ApplicationUserLogin> UserLogins { get; set; }
         public DbSet<CityPossition> CityPossitions { get; set; }
+
+        public DbSet<Weather> Weathers { get; set; }
     }
 }

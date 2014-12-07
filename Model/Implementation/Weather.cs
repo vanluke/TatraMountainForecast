@@ -1,9 +1,13 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using Model.Interfaces;
 using Newtonsoft.Json;
+using System.Runtime.Serialization;
 
 namespace Model.Implementation
 {
+    [DataContract(Name = "weather")]
     public class Weather
     {
         public Weather(string city, List<CurrentWeather> currentWeather, List<Forecast> forecasts)
@@ -15,17 +19,19 @@ namespace Model.Implementation
 
         public Weather()
         {
-            
+            CurrentWeather = new List<CurrentWeather>();
+            Forecasts = new List<Forecast>();
         }
 
         [JsonProperty(PropertyName = "curren_weather")]
-        public List<CurrentWeather> CurrentWeather { get; set; }
+        public IEnumerable<CurrentWeather> CurrentWeather { get; set; }
         [JsonProperty(PropertyName = "forecast")]
-        public List<Forecast> Forecasts { get; set; }
+        public IEnumerable<Forecast> Forecasts { get; set; }
 
         public string City { get; set; }
 
         [Key]
-        public string Id { get; set; }
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)] 
+        public int Id { get; set; }
     }
 }

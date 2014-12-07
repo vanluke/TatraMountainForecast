@@ -12,15 +12,35 @@ namespace ApiTests
     public class WeatherControllerTests
     {
         [TestMethod]
-        public async Task When_Getting_Two_Day_Forecat()
+        public async Task When_Getting_Two_Day_by_Location_Forecat()
         {
             var controller = new WeathersController();
+
             controller.Request = new HttpRequestMessage();
+
             controller.Configuration = new HttpConfiguration();
+
             var coord = new Geolocation("50.0566531", "19.9229965");
-            var fetchData = controller.Get("");
+
+            var fetchData = await controller.Get(coord);
+
             var reality = await fetchData.Content.ReadAsAsync<Weathers>();
 
+            Assert.AreNotEqual(null, reality.Weather);
+        }
+
+        [TestMethod]
+        public async Task When_Getting_Two_Day_Without_Spec_Location_Forecat()
+        {
+            var controller = new WeathersController();
+
+            controller.Request = new HttpRequestMessage();
+
+            controller.Configuration = new HttpConfiguration();
+
+            var fetchData = await controller.Get();
+
+            var reality = await fetchData.Content.ReadAsAsync<Weathers>();
 
             Assert.AreNotEqual(null, reality.Weather);
         }

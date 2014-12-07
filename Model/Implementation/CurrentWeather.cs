@@ -1,12 +1,20 @@
 ﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Runtime.Serialization;
+using Model.Interfaces;
 using Newtonsoft.Json;
 
 namespace Model.Implementation
 {
-    [DataContract(Name = "CurrenWeather")]
+    [DataContract(Name = "curren_weather")]
     public class CurrentWeather
     {
+        public CurrentWeather()
+        {
+            Winds = new List<Wind>();
+        }
+        [Key]
+        public int Id { get; set; }
         [JsonProperty(PropertyName = "humidity")]
         public string Humidity { get; set; }
         [JsonProperty(PropertyName = "pressure")]
@@ -20,6 +28,6 @@ namespace Model.Implementation
         [JsonProperty(PropertyName = "weather_text")]
         public string Comments { get; set; }
         [JsonProperty(PropertyName = "wind")]
-        public List<Wind> Winds { get; set; }
+        public IEnumerable<Wind> Winds { get; set; }
     }
 }

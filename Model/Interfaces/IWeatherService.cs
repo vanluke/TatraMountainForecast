@@ -1,14 +1,15 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
+using Model.Implementation;
 
 namespace Model.Interfaces
 {
     public interface IWeatherService
     {
-        Task<IEnumerable<IWether>> GetAsync();
-        Task<IEnumerable<IWether>> GetAsync(int id);
-        Task UpdateAsync(IWether wether);
-        Task DeleteAsync(int id);
+        Task<IEnumerable<Weather>> GetAsync();
+        Task<Weather> GetAsync(string city);
+        Task UpdateAsync(Weather wether);
+        Task DeleteAsync(string city);
         Task<IUserLocation> GetCurrentLocalization(string hostname);
     }
 }

@@ -5,8 +5,6 @@ using System.Net;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
-using System.Web;
-using System.Web.Helpers;
 using System.Web.Http;
 using Model.Implementation;
 using Model.Interfaces;
@@ -32,8 +30,41 @@ namespace Api.Controllers
                 HttpResponseMessage response = await client.GetAsync(String.Format("forecast.ashx?uac=0HDgjFKVeJ&output=json&query={0},{1}&temp_unit=c&ws_unit=kph", geolocation.Latitude, geolocation.Longitude));
                 if (response.IsSuccessStatusCode)
                 {
-                    var retval = await response.Content.ReadAsAsync<Weathers>();
-                    return Request.CreateResponse(HttpStatusCode.OK, retval);
+                    try
+                    {
+                        var retval = await response.Content.ReadAsAsync<Weathers>();
+                        return Request.CreateResponse(HttpStatusCode.OK, retval);
+                    }
+                    catch (Exception)
+                    {     
+                        throw;
+                    }
+                }
+            }
+            return Request.CreateResponse(HttpStatusCode.BadRequest, "Unable to fetch weather data");
+        }
+
+        public async Task<HttpResponseMessage> Get(Geolocation geolocation)
+        {
+            Uri uri = new Uri(_url);
+            using (var client = new HttpClient())
+            {
+                client.BaseAddress = new Uri("http://www.myweather2.com/developer/");
+                client.DefaultRequestHeaders.Accept.Clear();
+
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+                HttpResponseMessage response = await client.GetAsync(String.Format("forecast.ashx?uac=0HDgjFKVeJ&output=json&query={0},{1}&temp_unit=c&ws_unit=kph", geolocation.Latitude, geolocation.Longitude));
+                if (response.IsSuccessStatusCode)
+                {
+                    try
+                    {
+                        var retval = await response.Content.ReadAsAsync<Weathers>();
+                        return Request.CreateResponse(HttpStatusCode.OK, retval);
+                    }
+                    catch (Exception)
+                    {
+                        throw;
+                    }
                 }
             }
             return Request.CreateResponse(HttpStatusCode.BadRequest, "Unable to fetch weather data");
@@ -64,16 +95,15 @@ namespace Api.Controllers
                         if (response.IsSuccessStatusCode)
                         {
                             var retval = await response.Content.ReadAsAsync<Weathers>();
-                            var weather = new Model.Implementation.Weather(one.Location, retval.Weather.CurrentWeather,
-                                retval.Weather.Forecasts);
+                            var weather = new Weather(one.Location, retval.Weather.CurrentWeather as List<CurrentWeather>,
+                                retval.Weather.Forecasts as List<Forecast>);
                             wlist.Add(weather);
                         }
 
                     }
                 }
-                catch (Exception ex)
-                {
-                    
+                catch (Exception)
+                {   
                     throw;
                 }
                
@@ -90,7 +120,7 @@ namespace Api.Controllers
 
         public WeathersController(/*IWeatherService weatherService*/)
         {
-            _weatherService = new WeatherService();
+            _weatherService = new WeatherOfflineService(new ApplicationContext());
         }
 
         private readonly IWeatherService _weatherService;

@@ -57,6 +57,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConcreteTypeConverter.cs" />
     <Compile Include="Implementation\ApplicationRole.cs" />
     <Compile Include="Implementation\ApplicationUser.cs" />
     <Compile Include="Implementation\ApplicationUserClaim.cs" />
@@ -65,7 +66,7 @@
     <Compile Include="Implementation\CityPossition.cs" />
     <Compile Include="Implementation\CurrentWeather.cs" />
     <Compile Include="Implementation\Day.cs" />
-    <Compile Include="Implementation\ExtenedWind.cs" />
+    <Compile Include="Implementation\ExtendedWind.cs" />
     <Compile Include="Implementation\Forecast.cs" />
     <Compile Include="Implementation\Geolocation.cs" />
     <Compile Include="Implementation\IPLocation.cs" />
@@ -75,11 +76,18 @@
     <Compile Include="Implementation\Weathers.cs" />
     <Compile Include="Implementation\Wind.cs" />
     <Compile Include="Interfaces\ICityPossition.cs" />
+    <Compile Include="Interfaces\ICurrentWeather.cs" />
+    <Compile Include="Interfaces\IDay.cs" />
+    <Compile Include="Interfaces\IExtendedWind.cs" />
+    <Compile Include="Interfaces\IForecast.cs" />
     <Compile Include="Interfaces\IGeolocation.cs" />
     <Compile Include="Interfaces\IIPLocation.cs" />
+    <Compile Include="Interfaces\INight.cs" />
     <Compile Include="Interfaces\IUserLocation.cs" />
-    <Compile Include="Interfaces\IWether.cs" />
+    <Compile Include="Interfaces\IWeather.cs" />
+    <Compile Include="Interfaces\IWeathers.cs" />
     <Compile Include="Interfaces\IWeatherService.cs" />
+    <Compile Include="Interfaces\IWind.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

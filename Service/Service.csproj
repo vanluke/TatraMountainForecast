@@ -29,6 +29,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework">
       <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.dll</HintPath>
@@ -42,6 +45,10 @@
     <Reference Include="Microsoft.AspNet.Identity.EntityFramework">
       <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.2.1.0\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.6.0.6\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -53,25 +60,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApplicationContext.cs" />
-    <Compile Include="Migrations\201411041250208_Init.cs" />
-    <Compile Include="Migrations\201411041250208_Init.Designer.cs">
-      <DependentUpon>201411041250208_Init.cs</DependentUpon>
+    <Compile Include="Migrations\201412061650377_Start.cs" />
+    <Compile Include="Migrations\201412061650377_Start.Designer.cs">
+      <DependentUpon>201412061650377_Start.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201411041256284_ReInit.cs" />
-    <Compile Include="Migrations\201411041256284_ReInit.Designer.cs">
-      <DependentUpon>201411041256284_ReInit.cs</DependentUpon>
+    <Compile Include="Migrations\201412061941193_Confused.cs" />
+    <Compile Include="Migrations\201412061941193_Confused.Designer.cs">
+      <DependentUpon>201412061941193_Confused.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201411041258181_X.cs" />
-    <Compile Include="Migrations\201411041258181_X.Designer.cs">
-      <DependentUpon>201411041258181_X.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201411041259194_Y.cs" />
-    <Compile Include="Migrations\201411041259194_Y.Designer.cs">
-      <DependentUpon>201411041259194_Y.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201412010625298_Z.cs" />
-    <Compile Include="Migrations\201412010625298_Z.Designer.cs">
-      <DependentUpon>201412010625298_Z.cs</DependentUpon>
+    <Compile Include="Migrations\201412061948250_SomeClarification.cs" />
+    <Compile Include="Migrations\201412061948250_SomeClarification.Designer.cs">
+      <DependentUpon>201412061948250_SomeClarification.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -80,6 +79,7 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+    <None Include="Seed\weather_seed.json" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Model\Model.csproj">
@@ -88,20 +88,14 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201411041250208_Init.resx">
-      <DependentUpon>201411041250208_Init.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201412061650377_Start.resx">
+      <DependentUpon>201412061650377_Start.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201411041256284_ReInit.resx">
-      <DependentUpon>201411041256284_ReInit.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201412061941193_Confused.resx">
+      <DependentUpon>201412061941193_Confused.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201411041258181_X.resx">
-      <DependentUpon>201411041258181_X.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201411041259194_Y.resx">
-      <DependentUpon>201411041259194_Y.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201412010625298_Z.resx">
-      <DependentUpon>201412010625298_Z.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201412061948250_SomeClarification.resx">
+      <DependentUpon>201412061948250_SomeClarification.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

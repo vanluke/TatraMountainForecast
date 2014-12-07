@@ -1,5 +1,7 @@
 using System.Collections.Generic;
+using System.Diagnostics;
 using Model.Implementation;
+using Newtonsoft.Json;
 
 namespace Service.Migrations
 {
@@ -7,12 +9,16 @@ namespace Service.Migrations
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
     using System.Linq;
+    using System.IO;
+    using System.Reflection;
 
     internal sealed class Configuration : DbMigrationsConfiguration<Service.ApplicationContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
+            //if (System.Diagnostics.Debugger.IsAttached == false)
+            //    System.Diagnostics.Debugger.Launch();
         }
 
         protected override void Seed(Service.ApplicationContext context)
@@ -206,9 +212,27 @@ namespace Service.Migrations
                 v.Latitude = v.Latitude.Replace(",", ".");
                 v.Longitude = v.Longitude.Replace(",", ".");
             });
+
+           // context.CityPossitions.AddRange(cityPossitions);
            
-            context.CityPossitions.AddRange(cityPossitions);
-            context.SaveChanges();
+
+            var weatherSeed = File.ReadAllText(@"D:\Tmp\tmfc\TatraMountainForecase\Service\Seed\weather_seed.json");
+
+            var weatherData = JsonConvert.DeserializeObject<IEnumerable<Weather>>(weatherSeed);
+
+            if (weatherData != null)
+            {
+                //context.Weathers.AddRange(weatherData);
+            }
+
+            try
+            {
+               // context.SaveChanges();
+            }
+            catch (Exception)
+            {
+                throw;
+            }
         }
     }
 }

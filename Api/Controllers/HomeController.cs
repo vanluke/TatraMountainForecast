@@ -1,9 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
+using System.IO;
 using System.Linq;
 using System.Net;
+using System.Reflection;
 using System.Web;
 using System.Web.Mvc;
+using Model.Implementation;
+using Newtonsoft.Json;
+using Service;
 
 namespace Api.Controllers
 {
@@ -16,7 +22,6 @@ namespace Api.Controllers
             //HostAddress = request.UserHostName .UserHostAddress;
      
             HostAddress = Dns.GetHostAddresses(Dns.GetHostName());
-
             return View();
         }
 
