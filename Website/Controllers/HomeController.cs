@@ -6,8 +6,9 @@ using System.Web.Mvc;
 
 namespace Website.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : BaseController
     {
+        // GET: Home
         public ActionResult Index()
         {
             return View();
@@ -15,15 +16,26 @@ namespace Website.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
-
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            return View();
+        }
 
+        public ActionResult Angular()
+        {
+            return View();
+        }
+
+        public ActionResult Main()
+        {
+            return View();
+        }
+
+        public ActionResult Weathers()
+        {
             return View();
         }
     }

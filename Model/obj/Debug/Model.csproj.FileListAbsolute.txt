@@ -14,22 +14,6 @@ C:\Users\Łukasz\Documents\Visual Studio 2013\Projects\Praca dyplomowa\TatraMoun
 C:\Users\Łukasz\Documents\Visual Studio 2013\Projects\Praca dyplomowa\TatraMountainForecast\Model\obj\Debug\Model.pdb
 C:\Users\Łukasz\Documents\Visual Studio 2013\Projects\Praca dyplomowa\TatraMountainForecast\Model\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Łukasz\Documents\Visual Studio 2013\Projects\Praca dyplomowa\TatraMountainForecast\Model\bin\Debug\Newtonsoft.Json.xml
-D:\New folder\TAi\TatraMountainForecase\Model\bin\Debug\Model.dll.config
-D:\New folder\TAi\TatraMountainForecase\Model\bin\Debug\Model.dll
-D:\New folder\TAi\TatraMountainForecase\Model\bin\Debug\Model.pdb
-D:\New folder\TAi\TatraMountainForecase\Model\bin\Debug\EntityFramework.dll
-D:\New folder\TAi\TatraMountainForecase\Model\bin\Debug\EntityFramework.SqlServer.dll
-D:\New folder\TAi\TatraMountainForecase\Model\bin\Debug\Microsoft.AspNet.Identity.Core.dll
-D:\New folder\TAi\TatraMountainForecase\Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
-D:\New folder\TAi\TatraMountainForecase\Model\bin\Debug\Newtonsoft.Json.dll
-D:\New folder\TAi\TatraMountainForecase\Model\bin\Debug\EntityFramework.xml
-D:\New folder\TAi\TatraMountainForecase\Model\bin\Debug\EntityFramework.SqlServer.xml
-D:\New folder\TAi\TatraMountainForecase\Model\bin\Debug\Microsoft.AspNet.Identity.Core.xml
-D:\New folder\TAi\TatraMountainForecase\Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
-D:\New folder\TAi\TatraMountainForecase\Model\bin\Debug\Newtonsoft.Json.xml
-D:\New folder\TAi\TatraMountainForecase\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
-D:\New folder\TAi\TatraMountainForecase\Model\obj\Debug\Model.dll
-D:\New folder\TAi\TatraMountainForecase\Model\obj\Debug\Model.pdb
 D:\Tmp\tmfc\TatraMountainForecase\Model\bin\Debug\Model.dll.config
 D:\Tmp\tmfc\TatraMountainForecase\Model\bin\Debug\Model.dll
 D:\Tmp\tmfc\TatraMountainForecase\Model\bin\Debug\Model.pdb
@@ -45,3 +29,19 @@ D:\Tmp\tmfc\TatraMountainForecase\Model\bin\Debug\Microsoft.AspNet.Identity.Enti
 D:\Tmp\tmfc\TatraMountainForecase\Model\bin\Debug\Newtonsoft.Json.xml
 D:\Tmp\tmfc\TatraMountainForecase\Model\obj\Debug\Model.dll
 D:\Tmp\tmfc\TatraMountainForecase\Model\obj\Debug\Model.pdb
+D:\New folder\TAi\TatraMountainForecase\Model\bin\Debug\Model.dll.config
+D:\New folder\TAi\TatraMountainForecase\Model\bin\Debug\Model.dll
+D:\New folder\TAi\TatraMountainForecase\Model\bin\Debug\Model.pdb
+D:\New folder\TAi\TatraMountainForecase\Model\bin\Debug\EntityFramework.dll
+D:\New folder\TAi\TatraMountainForecase\Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\New folder\TAi\TatraMountainForecase\Model\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\New folder\TAi\TatraMountainForecase\Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\New folder\TAi\TatraMountainForecase\Model\bin\Debug\Newtonsoft.Json.dll
+D:\New folder\TAi\TatraMountainForecase\Model\bin\Debug\EntityFramework.xml
+D:\New folder\TAi\TatraMountainForecase\Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\New folder\TAi\TatraMountainForecase\Model\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\New folder\TAi\TatraMountainForecase\Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\New folder\TAi\TatraMountainForecase\Model\bin\Debug\Newtonsoft.Json.xml
+D:\New folder\TAi\TatraMountainForecase\Model\obj\Debug\Model.dll
+D:\New folder\TAi\TatraMountainForecase\Model\obj\Debug\Model.pdb
+D:\New folder\TAi\TatraMountainForecase\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache

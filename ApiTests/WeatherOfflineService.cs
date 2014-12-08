@@ -21,6 +21,7 @@ namespace ApiTests
 
             Assert.IsTrue(data.Count > 1);
         }
+
         [TestMethod]
         public void When_Update_WeatherTest()
         {

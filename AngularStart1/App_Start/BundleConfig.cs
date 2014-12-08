@@ -42,9 +42,7 @@ namespace AngularStart1
 
             bundles.Add(new StyleBundle("~/Content/bootstrap").Include(
                 "~/Content/bootstrap.css",
-                "~/Content/bootstrap-responsive.css"
-                ));
-
+                "~/Content/bootstrap-responsive.css"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include("~/Content/site.css",
                 "~/Content/ng-grid.css"));

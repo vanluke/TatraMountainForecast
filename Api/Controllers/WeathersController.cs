@@ -33,7 +33,9 @@ namespace Api.Controllers
                     try
                     {
                         var retval = await response.Content.ReadAsAsync<Weathers>();
-                        return Request.CreateResponse(HttpStatusCode.OK, retval);
+                        retval.LocationName = "Cracow";
+                        var enumeration = new List<Weathers>() { retval };
+                        return Request.CreateResponse(HttpStatusCode.OK, enumeration);
                     }
                     catch (Exception)
                     {     
@@ -44,31 +46,31 @@ namespace Api.Controllers
             return Request.CreateResponse(HttpStatusCode.BadRequest, "Unable to fetch weather data");
         }
 
-        public async Task<HttpResponseMessage> Get(Geolocation geolocation)
-        {
-            Uri uri = new Uri(_url);
-            using (var client = new HttpClient())
-            {
-                client.BaseAddress = new Uri("http://www.myweather2.com/developer/");
-                client.DefaultRequestHeaders.Accept.Clear();
+        //public async Task<HttpResponseMessage> Get(Geolocation geolocation)
+        //{
+        //    Uri uri = new Uri(_url);
+        //    using (var client = new HttpClient())
+        //    {
+        //        client.BaseAddress = new Uri("http://www.myweather2.com/developer/");
+        //        client.DefaultRequestHeaders.Accept.Clear();
 
-                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-                HttpResponseMessage response = await client.GetAsync(String.Format("forecast.ashx?uac=0HDgjFKVeJ&output=json&query={0},{1}&temp_unit=c&ws_unit=kph", geolocation.Latitude, geolocation.Longitude));
-                if (response.IsSuccessStatusCode)
-                {
-                    try
-                    {
-                        var retval = await response.Content.ReadAsAsync<Weathers>();
-                        return Request.CreateResponse(HttpStatusCode.OK, retval);
-                    }
-                    catch (Exception)
-                    {
-                        throw;
-                    }
-                }
-            }
-            return Request.CreateResponse(HttpStatusCode.BadRequest, "Unable to fetch weather data");
-        }
+        //        client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+        //        HttpResponseMessage response = await client.GetAsync(String.Format("forecast.ashx?uac=0HDgjFKVeJ&output=json&query={0},{1}&temp_unit=c&ws_unit=kph", geolocation.Latitude, geolocation.Longitude));
+        //        if (response.IsSuccessStatusCode)
+        //        {
+        //            try
+        //            {
+        //                var retval = await response.Content.ReadAsAsync<Weathers>();
+        //                return Request.CreateResponse(HttpStatusCode.OK, retval);
+        //            }
+        //            catch (Exception)
+        //            {
+        //                throw;
+        //            }
+        //        }
+        //    }
+        //    return Request.CreateResponse(HttpStatusCode.BadRequest, "Unable to fetch weather data");
+        //}
 
         private async Task DoJob()
         {
@@ -112,11 +114,11 @@ namespace Api.Controllers
             }
         }
 
-        [Route("api/Weathers/{day}")]
-        public HttpResponseMessage Get(string day)
-        {
-            return Request.CreateResponse(HttpStatusCode.OK);
-        }
+        //[Route("api/Weathers/{day}")]
+        //public HttpResponseMessage Get(string day)
+        //{
+        //    return Request.CreateResponse(HttpStatusCode.OK);
+        //}
 
         public WeathersController(/*IWeatherService weatherService*/)
         {

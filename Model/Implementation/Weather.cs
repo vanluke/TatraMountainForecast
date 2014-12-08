@@ -28,6 +28,7 @@ namespace Model.Implementation
         [JsonProperty(PropertyName = "forecast")]
         public IEnumerable<Forecast> Forecasts { get; set; }
 
+        [JsonProperty(PropertyName = "city")]
         public string City { get; set; }
 
         [Key]

@@ -13,6 +13,10 @@ namespace Model.Implementation
 
         [JsonProperty(PropertyName = "weather")]
         public Weather Weather { get; set; }
+
+        [JsonProperty(PropertyName = "locationName")]
+        public string LocationName { get; set; }
+
         [Key]
         public int Id { get; set; }
     }
