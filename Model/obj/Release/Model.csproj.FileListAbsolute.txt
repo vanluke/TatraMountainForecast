@@ -1,0 +1,15 @@
+D:\Project\TatraMountainForecase\Model\bin\Release\Model.dll.config
+D:\Project\TatraMountainForecase\Model\bin\Release\Model.dll
+D:\Project\TatraMountainForecase\Model\bin\Release\Model.pdb
+D:\Project\TatraMountainForecase\Model\bin\Release\EntityFramework.dll
+D:\Project\TatraMountainForecase\Model\bin\Release\EntityFramework.SqlServer.dll
+D:\Project\TatraMountainForecase\Model\bin\Release\Microsoft.AspNet.Identity.Core.dll
+D:\Project\TatraMountainForecase\Model\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Project\TatraMountainForecase\Model\bin\Release\Newtonsoft.Json.dll
+D:\Project\TatraMountainForecase\Model\bin\Release\EntityFramework.xml
+D:\Project\TatraMountainForecase\Model\bin\Release\EntityFramework.SqlServer.xml
+D:\Project\TatraMountainForecase\Model\bin\Release\Microsoft.AspNet.Identity.Core.xml
+D:\Project\TatraMountainForecase\Model\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Project\TatraMountainForecase\Model\bin\Release\Newtonsoft.Json.xml
+D:\Project\TatraMountainForecase\Model\obj\Release\Model.dll
+D:\Project\TatraMountainForecase\Model\obj\Release\Model.pdb

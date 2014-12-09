@@ -139,3 +139,46 @@ D:\New folder\TAi\TatraMountainForecase\TatraMountainForecast\bin\Microsoft.AspN
 D:\New folder\TAi\TatraMountainForecase\TatraMountainForecast\obj\Debug\TatraMountainForecast.csprojResolveAssemblyReference.cache
 D:\New folder\TAi\TatraMountainForecase\TatraMountainForecast\obj\Debug\TatraMountainForecast.dll
 D:\New folder\TAi\TatraMountainForecase\TatraMountainForecast\obj\Debug\TatraMountainForecast.pdb
+D:\Project\TatraMountainForecase\TatraMountainForecast\bin\TatraMountainForecast.dll.config
+D:\Project\TatraMountainForecase\TatraMountainForecast\bin\TatraMountainForecast.dll
+D:\Project\TatraMountainForecase\TatraMountainForecast\bin\TatraMountainForecast.pdb
+D:\Project\TatraMountainForecase\TatraMountainForecast\bin\Antlr3.Runtime.dll
+D:\Project\TatraMountainForecase\TatraMountainForecast\bin\EntityFramework.dll
+D:\Project\TatraMountainForecase\TatraMountainForecast\bin\EntityFramework.SqlServer.dll
+D:\Project\TatraMountainForecase\TatraMountainForecast\bin\Model.dll
+D:\Project\TatraMountainForecase\TatraMountainForecast\bin\Newtonsoft.Json.dll
+D:\Project\TatraMountainForecase\TatraMountainForecast\bin\Service.dll
+D:\Project\TatraMountainForecase\TatraMountainForecast\bin\System.Net.Http.Formatting.dll
+D:\Project\TatraMountainForecase\TatraMountainForecast\bin\System.Web.Helpers.dll
+D:\Project\TatraMountainForecase\TatraMountainForecast\bin\System.Web.Http.dll
+D:\Project\TatraMountainForecase\TatraMountainForecast\bin\System.Web.Http.WebHost.dll
+D:\Project\TatraMountainForecase\TatraMountainForecast\bin\System.Web.Mvc.dll
+D:\Project\TatraMountainForecase\TatraMountainForecast\bin\System.Web.Optimization.dll
+D:\Project\TatraMountainForecase\TatraMountainForecast\bin\System.Web.Razor.dll
+D:\Project\TatraMountainForecase\TatraMountainForecast\bin\System.Web.Webpages.Deployment.dll
+D:\Project\TatraMountainForecase\TatraMountainForecast\bin\System.Web.Webpages.dll
+D:\Project\TatraMountainForecase\TatraMountainForecast\bin\System.Web.Webpages.Razor.dll
+D:\Project\TatraMountainForecase\TatraMountainForecast\bin\WebGrease.dll
+D:\Project\TatraMountainForecase\TatraMountainForecast\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Project\TatraMountainForecase\TatraMountainForecast\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Project\TatraMountainForecase\TatraMountainForecast\bin\Model.pdb
+D:\Project\TatraMountainForecase\TatraMountainForecast\bin\Service.pdb
+D:\Project\TatraMountainForecase\TatraMountainForecast\bin\Antlr3.Runtime.pdb
+D:\Project\TatraMountainForecase\TatraMountainForecast\bin\EntityFramework.xml
+D:\Project\TatraMountainForecase\TatraMountainForecast\bin\EntityFramework.SqlServer.xml
+D:\Project\TatraMountainForecase\TatraMountainForecast\bin\Newtonsoft.Json.xml
+D:\Project\TatraMountainForecase\TatraMountainForecast\bin\System.Net.Http.Formatting.xml
+D:\Project\TatraMountainForecase\TatraMountainForecast\bin\System.Web.Http.xml
+D:\Project\TatraMountainForecase\TatraMountainForecast\bin\System.Web.Http.WebHost.xml
+D:\Project\TatraMountainForecase\TatraMountainForecast\bin\System.Web.Optimization.xml
+D:\Project\TatraMountainForecase\TatraMountainForecast\bin\System.Web.Razor.xml
+D:\Project\TatraMountainForecase\TatraMountainForecast\bin\System.Web.Webpages.xml
+D:\Project\TatraMountainForecase\TatraMountainForecast\bin\System.Web.Webpages.Deployment.xml
+D:\Project\TatraMountainForecase\TatraMountainForecast\bin\System.Web.Webpages.Razor.xml
+D:\Project\TatraMountainForecase\TatraMountainForecast\bin\System.Web.Helpers.xml
+D:\Project\TatraMountainForecase\TatraMountainForecast\bin\System.Web.Mvc.xml
+D:\Project\TatraMountainForecase\TatraMountainForecast\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Project\TatraMountainForecase\TatraMountainForecast\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Project\TatraMountainForecase\TatraMountainForecast\obj\Debug\TatraMountainForecast.csprojResolveAssemblyReference.cache
+D:\Project\TatraMountainForecase\TatraMountainForecast\obj\Debug\TatraMountainForecast.dll
+D:\Project\TatraMountainForecase\TatraMountainForecast\obj\Debug\TatraMountainForecast.pdb

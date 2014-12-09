@@ -23,3 +23,28 @@ D:\New folder\TAi\TatraMountainForecase\Website\bin\System.Web.Mvc.xml
 D:\New folder\TAi\TatraMountainForecase\Website\obj\Debug\Website.dll
 D:\New folder\TAi\TatraMountainForecase\Website\obj\Debug\Website.pdb
 D:\New folder\TAi\TatraMountainForecase\Website\obj\Debug\Website.csprojResolveAssemblyReference.cache
+D:\Project\TatraMountainForecase\Website\bin\Website.dll.config
+D:\Project\TatraMountainForecase\Website\bin\Website.dll
+D:\Project\TatraMountainForecase\Website\bin\Website.pdb
+D:\Project\TatraMountainForecase\Website\bin\Antlr3.Runtime.dll
+D:\Project\TatraMountainForecase\Website\bin\Newtonsoft.Json.dll
+D:\Project\TatraMountainForecase\Website\bin\System.Web.Helpers.dll
+D:\Project\TatraMountainForecase\Website\bin\System.Web.Mvc.dll
+D:\Project\TatraMountainForecase\Website\bin\System.Web.Optimization.dll
+D:\Project\TatraMountainForecase\Website\bin\System.Web.Razor.dll
+D:\Project\TatraMountainForecase\Website\bin\System.Web.Webpages.Deployment.dll
+D:\Project\TatraMountainForecase\Website\bin\System.Web.Webpages.dll
+D:\Project\TatraMountainForecase\Website\bin\System.Web.Webpages.Razor.dll
+D:\Project\TatraMountainForecase\Website\bin\WebGrease.dll
+D:\Project\TatraMountainForecase\Website\bin\Antlr3.Runtime.pdb
+D:\Project\TatraMountainForecase\Website\bin\Newtonsoft.Json.xml
+D:\Project\TatraMountainForecase\Website\bin\System.Web.Optimization.xml
+D:\Project\TatraMountainForecase\Website\bin\System.Web.Razor.xml
+D:\Project\TatraMountainForecase\Website\bin\System.Web.Webpages.xml
+D:\Project\TatraMountainForecase\Website\bin\System.Web.Webpages.Deployment.xml
+D:\Project\TatraMountainForecase\Website\bin\System.Web.Webpages.Razor.xml
+D:\Project\TatraMountainForecase\Website\bin\System.Web.Helpers.xml
+D:\Project\TatraMountainForecase\Website\bin\System.Web.Mvc.xml
+D:\Project\TatraMountainForecase\Website\obj\Debug\Website.csprojResolveAssemblyReference.cache
+D:\Project\TatraMountainForecase\Website\obj\Debug\Website.dll
+D:\Project\TatraMountainForecase\Website\obj\Debug\Website.pdb

@@ -27,14 +27,14 @@ namespace Website.App_Start
                       "~/Scripts/respond.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/styles.css",
-                      "~/Content/ng-table.css",
-                      "~/Content/ng-grid.css"
+                      "~/Content/styles.css"
+                      //"~/Content/ng-table.css",
+                      //"~/Content/ng-grid.css"
                       ));
 
             bundles.Add(new StyleBundle("~/Content/bootstrap").Include(
-                      "~/Content/bootstrap.css",
-                      "~/Content/bootstrap-responsive.css"));
+                      "~/Content/bootstrap.css"));
+                      //"~/Content/bootstrap-responsive.css"));
 
             bundles.Add(new ScriptBundle("~/bundles/angular").Include(
                         "~/Scripts/angular.js",

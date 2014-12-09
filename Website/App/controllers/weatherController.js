@@ -8,6 +8,8 @@ angular.module('main')
 
     $scope.dataList = [];
 
+    $scope.getDatetime = new Date();
+
         $scope.currentWeatherList = function(location) {
             for (var i = 0; i < myData.length; i++) {
                 if (myData[i].locationName == location) {

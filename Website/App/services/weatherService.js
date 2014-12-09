@@ -24,7 +24,7 @@ var angularStartServices = angular.module('angularStart.services', ['ngResource'
 angularStartServices.factory('dataService', ['$http', function ($http) {
     return {
         getJson: function () {
-            return $http.get("http://localhost:33990/api/Weathers").success(function (data, status, headers, config) {
+            return $http.get("http://localhost/WeatherApi/api/Weathers").success(function (data, status, headers, config) {
     
             }).error(function (data, status, headers, config) {
                 console.log(data);

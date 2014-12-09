@@ -63,3 +63,25 @@ D:\New folder\TAi\TatraMountainForecase\Service\obj\Debug\Service.Migrations.Som
 D:\New folder\TAi\TatraMountainForecase\Service\obj\Debug\Service.csproj.GenerateResource.Cache
 D:\New folder\TAi\TatraMountainForecase\Service\obj\Debug\Service.dll
 D:\New folder\TAi\TatraMountainForecase\Service\obj\Debug\Service.pdb
+D:\Project\TatraMountainForecase\Service\bin\Debug\Service.dll.config
+D:\Project\TatraMountainForecase\Service\bin\Debug\Service.dll
+D:\Project\TatraMountainForecase\Service\bin\Debug\Service.pdb
+D:\Project\TatraMountainForecase\Service\bin\Debug\EntityFramework.dll
+D:\Project\TatraMountainForecase\Service\bin\Debug\EntityFramework.SqlServer.dll
+D:\Project\TatraMountainForecase\Service\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Project\TatraMountainForecase\Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Project\TatraMountainForecase\Service\bin\Debug\Model.dll
+D:\Project\TatraMountainForecase\Service\bin\Debug\Newtonsoft.Json.dll
+D:\Project\TatraMountainForecase\Service\bin\Debug\Model.pdb
+D:\Project\TatraMountainForecase\Service\bin\Debug\EntityFramework.xml
+D:\Project\TatraMountainForecase\Service\bin\Debug\EntityFramework.SqlServer.xml
+D:\Project\TatraMountainForecase\Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Project\TatraMountainForecase\Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Project\TatraMountainForecase\Service\bin\Debug\Newtonsoft.Json.xml
+D:\Project\TatraMountainForecase\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+D:\Project\TatraMountainForecase\Service\obj\Debug\Service.Migrations.Start.resources
+D:\Project\TatraMountainForecase\Service\obj\Debug\Service.Migrations.Confused.resources
+D:\Project\TatraMountainForecase\Service\obj\Debug\Service.Migrations.SomeClarification.resources
+D:\Project\TatraMountainForecase\Service\obj\Debug\Service.csproj.GenerateResource.Cache
+D:\Project\TatraMountainForecase\Service\obj\Debug\Service.dll
+D:\Project\TatraMountainForecase\Service\obj\Debug\Service.pdb

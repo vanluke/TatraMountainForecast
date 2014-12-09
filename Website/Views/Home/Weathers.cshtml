@@ -1,51 +1,24 @@
 ﻿
-<div ng-controller="WeathersController">
-    <div class="grid-style" ng-grid="weatherGrid">
+<div ng-controller="WeathersController" class="container page">
+    <div>
+        <h1>{{myData[0].locationName}}</h1>
     </div>
-    <div id="dvcollection">
-        <table id="tblcollections">
-            <thead>
-                <tr>
-                    <th>EmpNo</th>
-                    <th>EmpName</th>
-                    <th>Salary</th>
-                    <th>DeptName</th>
-                    <th>Designation</th>
-                </tr>
-            </thead>
-            <tbody ng-repeat="Emp in myData.curren_weather">
-                <tr>
-                    <td> <span>{{Emp.city}}</span></td>
-                    <td> <span>{{Emp.humidity}}</span></td>
-                    <td> <span>{{Emp.pressure}}</span></td>
-                    <td> <span>{{Emp.temp}}</span></td>
-                    <td> <span>{{Emp.temp_unit}}</span></td>
-                    <td> <span>{{Emp.weather_code}}</span></td>
-                
-                    @*<td>
-                            <table ng-table="nestedtableParams" class="table">
-                                <tr ng-repeat="user in nesteddata">
-                                    <td data-title="'Name'">{{user.name}}</td>
-                                    <td data-title="'Age'">{{user.age}}</td>
-                                </tr>
-                            </table>
-                        </td>*@
-                </tr>
-            </tbody>
-        </table>
+    <div class="wrap">
+       
+        <div ng-repeat="x in myData">
+            
+            <div class="btn-big red" ng-repeat="curr in x.weather.curren_weather">
+                <div><h3>{{getDatetime | date:'yyyy-MMM-dd' }}</h3></div>
+                <div><span>{{ curr.temp }}&deg</span></div>
+                <div><span>{{ curr.weather_text }}</span></div>
+            </div>
+        </div>
+        <div ng-repeat="x in myData">
+            <div class="btn-small green" ng-repeat="Emp in x.weather.forecast">
+                <div><h3>{{ Emp.date }}</h3></div>
+                <div><span>{{ Emp.day_max_temp }}&deg</span></div>
+                <div><span>{{ Emp.night_min_temp }}</span></div>
+            </div>
+        </div>
     </div>
-    <script type="text/ng-template" id="myModalContent.html">
-        <div class="modal-header">
-            <h3 class="modal-title">I'm a modal!</h3>
-        </div>
-        <div class="modal-body">
-            <button>Hello</button>
-            <form>
-                
-                <button class="primary" data-ng-click="ok()">save</button>
-                <button class="primary" data-ng-click="cancel()">cancel</button>
-            </form>
-        </div>
-    </script>
 </div>
-
