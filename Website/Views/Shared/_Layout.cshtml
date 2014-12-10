@@ -28,9 +28,7 @@
                 <a class="brand" href='#/home'>Home</a>
                 <div class="nav-collapse collapse">
                     <ul class="nav">
-                        <li data-ng-class="{ active : activeViewPath==='/home' }"><a href='#/home'>Home</a></li>
                         <li data-ng-class="{ active : activeViewPath==='/weathers' }"><a href="#/weathers">Weathers</a></li>
-                        <li data-ng-class="{ active : activeViewPath==='/angular' }"><a href='#/angular'>Learn Angular</a></li>
                         <li data-ng-class="{ active : activeViewPath==='/about' }"><a href='#/about'>About</a></li>
                         <li data-ng-class="{ active : activeViewPath==='/contact' }"><a href='#/contact'>Contact</a></li>
                     </ul>
@@ -42,8 +40,6 @@
     <div class="container">
         @RenderBody()
     </div>
-
-
 
     @Scripts.Render("~/bundles/jquery")
     @*@Scripts.Render("~/bundles/requirejs")*@

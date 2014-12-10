@@ -51,7 +51,6 @@ namespace Website.App_Start
                         "~/App/services/service.js",
                         "~/App/services/modelService.js",
                         "~/App/services/weatherService.js",
-                        "~/App/controllers/mainController.js",
                         "~/App/controllers/weatherController.js",
                         "~/App/controllers/aboutController.js",
                         "~/App/controllers/contactController.js"));

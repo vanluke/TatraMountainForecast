@@ -20,3 +20,25 @@ D:\Project\TatraMountainForecase\Service\obj\Release\Service.Migrations.SomeClar
 D:\Project\TatraMountainForecase\Service\obj\Release\Service.csproj.GenerateResource.Cache
 D:\Project\TatraMountainForecase\Service\obj\Release\Service.dll
 D:\Project\TatraMountainForecase\Service\obj\Release\Service.pdb
+D:\New folder\TAi\TatraMountainForecase\Service\bin\Release\Service.dll.config
+D:\New folder\TAi\TatraMountainForecase\Service\bin\Release\Service.dll
+D:\New folder\TAi\TatraMountainForecase\Service\bin\Release\Service.pdb
+D:\New folder\TAi\TatraMountainForecase\Service\bin\Release\EntityFramework.dll
+D:\New folder\TAi\TatraMountainForecase\Service\bin\Release\EntityFramework.SqlServer.dll
+D:\New folder\TAi\TatraMountainForecase\Service\bin\Release\Microsoft.AspNet.Identity.Core.dll
+D:\New folder\TAi\TatraMountainForecase\Service\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\New folder\TAi\TatraMountainForecase\Service\bin\Release\Model.dll
+D:\New folder\TAi\TatraMountainForecase\Service\bin\Release\Newtonsoft.Json.dll
+D:\New folder\TAi\TatraMountainForecase\Service\bin\Release\Model.pdb
+D:\New folder\TAi\TatraMountainForecase\Service\bin\Release\EntityFramework.xml
+D:\New folder\TAi\TatraMountainForecase\Service\bin\Release\EntityFramework.SqlServer.xml
+D:\New folder\TAi\TatraMountainForecase\Service\bin\Release\Microsoft.AspNet.Identity.Core.xml
+D:\New folder\TAi\TatraMountainForecase\Service\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\New folder\TAi\TatraMountainForecase\Service\bin\Release\Newtonsoft.Json.xml
+D:\New folder\TAi\TatraMountainForecase\Service\obj\Release\Service.csprojResolveAssemblyReference.cache
+D:\New folder\TAi\TatraMountainForecase\Service\obj\Release\Service.Migrations.Start.resources
+D:\New folder\TAi\TatraMountainForecase\Service\obj\Release\Service.Migrations.Confused.resources
+D:\New folder\TAi\TatraMountainForecase\Service\obj\Release\Service.Migrations.SomeClarification.resources
+D:\New folder\TAi\TatraMountainForecase\Service\obj\Release\Service.csproj.GenerateResource.Cache
+D:\New folder\TAi\TatraMountainForecase\Service\obj\Release\Service.dll
+D:\New folder\TAi\TatraMountainForecase\Service\obj\Release\Service.pdb

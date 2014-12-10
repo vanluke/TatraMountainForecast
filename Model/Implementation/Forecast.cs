@@ -10,27 +10,49 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Model.Implementation
 {
-     [DataContract(Name = "forecast")]
-    public class Forecast
+    [DataContract(Name = "list")]
+    public class Forecast : IForecast
     {
         public Forecast()
         {
-            Days = new List<Day>();
-            Nights = new List<Night>();
+            Coordinate = new Possition();
+            WeatherDetails = new WeatherDetails();
+            Wind = new Wind();
+            Clouds = new Clouds();
+            Weather = new List<Weather>();
+            Rain = new Rain();
+            Snow = new Snow();
         }
-        [Key]
+
+        [JsonProperty(PropertyName = "id")]
         public int Id { get; set; }
-        [JsonProperty(PropertyName = "date")]
-        public string Date { get; set; }
-        [JsonProperty(PropertyName = "day")]
-        public IEnumerable<Day> Days { get; set; }
-        [JsonProperty(PropertyName = "day_max_temp")]
-        public string DayMaxTemperature { get; set; }
-        [JsonProperty(PropertyName = "night")]
-        public IEnumerable<Night> Nights { get; set; }
-        [JsonProperty(PropertyName = "night_min_temp")]
-        public string NightMinTemperature { get; set; }
-        [JsonProperty(PropertyName = "temp_unit")]
-        public string Unit { get; set; }
+
+        [JsonProperty(PropertyName = "name")]
+        public string Name { get; set; }
+
+        [JsonProperty(PropertyName = "coord")]
+        public IPossition Coordinate { get; set; }
+
+        [JsonProperty(PropertyName = "main")]
+        public IWeatherDetails WeatherDetails { get; set; }
+
+        [JsonProperty(PropertyName = "dt")]
+        public int DataReceivingTime { get; set; }
+
+        [JsonProperty(PropertyName = "wind")]
+        public IWind Wind { get; set; }
+
+        [JsonProperty(PropertyName = "clouds")]
+        public IClouds Clouds { get; set; }
+
+        [JsonProperty(PropertyName = "weather")]
+        public IEnumerable<IWeather> Weather { get; set; }
+
+        [JsonProperty(PropertyName = "rain")]
+        public IRain Rain { get; set; }
+
+        [JsonProperty(PropertyName = "snow")]
+        public ISnow Snow { get; set; }
     }
+
 }

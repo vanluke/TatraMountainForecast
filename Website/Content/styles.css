@@ -137,7 +137,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     color: #fff;
     width: 200px;
     height: 200px;
-    border-left: 1px solid rgba(247, 247, 247, 0.28);
+    border-left: 12px solid #fff;
     display: inline-block;
     text-align: center;
     flex-direction: column;
@@ -160,7 +160,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 .green {
-    background: #0e5d30;
+    background: #0026ff;
 }
 
 .page {
@@ -168,7 +168,209 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 .wrap {
+    width: 900px;
+    height: 1000px;
     margin-top: 50px;
     display: -webkit-box; /* or inline-flex */
     display: flex;
+    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+}
+
+/* entire container, keeps perspective */
+.flip-container {
+    perspective: 1000;
+    transform-style: preserve-3d;
+}
+    /*  UPDATED! flip the pane when hovered */
+    .flip-container:hover .back {
+        transform: rotateY(0deg);
+    }
+
+    .flip-container:hover .front {
+        transform: rotateY(180deg);
+    }
+
+.flip-container, .front, .back {
+    width: 200px;
+    height: 300px;
+}
+
+/* flip speed goes here */
+.flipper {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+
+}
+
+/* hide back of pane during swap */
+.front, .back {
+    backface-visibility: hidden;
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/*  UPDATED! front pane, placed above back */
+.front {
+    z-index: 2;
+    transform: rotateY(0deg);
+   
+}
+
+/* back, initially hidden pane */
+.back {
+    transform: rotateY(-180deg);
+}
+
+/* 
+	Some vertical flip updates 
+*/
+.vertical.flip-container {
+    position: relative;
+}
+
+.vertical .back {
+    transform: rotateX(180deg);
+}
+
+.vertical.flip-container:hover .back {
+    transform: rotateX(0deg);
+}
+
+.vertical.flip-container:hover .front {
+    transform: rotateX(180deg);
+}
+
+
+.ico-01d {
+    background: url(weather/01d.png) no-repeat;
+    width: 64px;
+    height: 64px;
+    border: none;
+    display: inline-block;
+}
+
+.ico-02d {
+    background: url(weather/02d.png) no-repeat;
+    width: 64px;
+    height: 64px;
+    border: none;
+    display: inline-block;
+}
+.ico-03d {
+    background: url(weather/03d.png) no-repeat;
+    width: 64px;
+    height: 64px;
+    border: none;
+    display: inline-block;
+}
+.ico-04d {
+    background: url(weather/04d.png) no-repeat;
+    width: 64px;
+    height: 64px;
+    border: none;
+    display: inline-block;
+}
+.ico-01n {
+    background: url(weather/01n.png) no-repeat;
+    width: 64px;
+    height: 64px;
+    border: none;
+    display: inline-block;
+}
+.ico-02n {
+    background: url(weather/02n.png) no-repeat;
+    width: 64px;
+    height: 64px;
+    border: none;
+    display: inline-block;
+}
+.ico-03n {
+    background: url(weather/03n.png) no-repeat;
+    width: 64px;
+    height: 64px;
+    border: none;
+    display: inline-block;
+}
+.ico-04n {
+    background: url(weather/04n.png) no-repeat;
+    width: 64px;
+    height: 64px;
+    border: none;
+    display: inline-block;
+}
+.ico-09d {
+    background: url(weather/09d.png) no-repeat;
+    width:  64px;
+    height:  64px;
+    border: none;
+    display: inline-block;
+}
+.ico-09n {
+    background: url(weather/09n.png) no-repeat;
+    width:  64px;
+    height:  64px;
+    border: none;
+    display: inline-block;
+}
+.ico-10d {
+    background: url(weather/10d.png) no-repeat;
+    width:  64px;
+    height:  64px;
+    border: none;
+    display: inline-block;
+}
+.ico-10n {
+    background: url(weather/10n.png) no-repeat;
+    width:  64px;
+    height:  64px;
+    border: none;
+    display: inline-block;
+}
+.ico-11d {
+    background: url(weather/11d.png) no-repeat;
+    width:  64px;
+    height:  64px;
+    border: none;
+    display: inline-block;
+}
+.ico-11n {
+    background: url(weather/11n.png) no-repeat;
+    width:  64px;
+    height:  64px;
+    border: none;
+    display: inline-block;
+}
+.ico-13d {
+    background: url(weather/13d.png) no-repeat;
+    width:  64px;
+    height:  64px;
+    border: none;
+    display: inline-block;
+}
+.ico-13n {
+    background: url(weather/13n.png) no-repeat;
+    width:  64px;
+    height:  64px;
+    border: none;
+    display: inline-block;
+}
+.ico-50d {
+    background: url(weather/50d.png) no-repeat;
+    width:  64px;
+    height:  64px;
+    border: none;
+    display: inline-block;
+}
+.ico-50n {
+    background: url(weather/50n.png) no-repeat;
+    width: 64px;
+    height:  64px;
+    border: none;
+    display: inline-block;
 }

@@ -8,31 +8,18 @@ using System.Runtime.Serialization;
 namespace Model.Implementation
 {
     [DataContract(Name = "weather")]
-    public class Weather
+    public class Weather : IWeather
     {
-        public Weather(string city, List<CurrentWeather> currentWeather, List<Forecast> forecasts)
-        {
-            CurrentWeather = currentWeather;
-            Forecasts = forecasts;
-            City = city;
-        }
-
-        public Weather()
-        {
-            CurrentWeather = new List<CurrentWeather>();
-            Forecasts = new List<Forecast>();
-        }
-
-        [JsonProperty(PropertyName = "curren_weather")]
-        public IEnumerable<CurrentWeather> CurrentWeather { get; set; }
-        [JsonProperty(PropertyName = "forecast")]
-        public IEnumerable<Forecast> Forecasts { get; set; }
-
-        [JsonProperty(PropertyName = "city")]
-        public string City { get; set; }
-
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)] 
+        [JsonProperty(PropertyName = "id")]
         public int Id { get; set; }
+
+        [JsonProperty(PropertyName = "main")]
+        public string QuickDescription { get; set; }
+
+        [JsonProperty(PropertyName = "description ")]
+        public string Description { get; set; }
+
+        [JsonProperty(PropertyName = "icon")]
+        public string Icon { get; set; }
     }
 }

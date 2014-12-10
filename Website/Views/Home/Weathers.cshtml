@@ -1,23 +1,25 @@
-﻿
-<div ng-controller="WeathersController" class="container page">
-    <div>
-        <h1>{{myData[0].locationName}}</h1>
-    </div>
+﻿<div ng-controller="WeathersController" class="container page">
     <div class="wrap">
-       
-        <div ng-repeat="x in myData">
-            
-            <div class="btn-big red" ng-repeat="curr in x.weather.curren_weather">
-                <div><h3>{{getDatetime | date:'yyyy-MMM-dd' }}</h3></div>
-                <div><span>{{ curr.temp }}&deg</span></div>
-                <div><span>{{ curr.weather_text }}</span></div>
-            </div>
-        </div>
-        <div ng-repeat="x in myData">
-            <div class="btn-small green" ng-repeat="Emp in x.weather.forecast">
-                <div><h3>{{ Emp.date }}</h3></div>
-                <div><span>{{ Emp.day_max_temp }}&deg</span></div>
-                <div><span>{{ Emp.night_min_temp }}</span></div>
+        <div class="btn-big red flip-container" ng-repeat="curr in myData.list">
+            <div class="flipper">
+                <div class="front">
+                    <div><h3>{{ getDatetime | date:'yyyy-MMM-dd' }}</h3></div>
+                    <div><h3>{{ curr.name }}</h3></div>
+                    <div><span>{{ curr.main.temp }}&deg</span></div>
+                    <div><span>{{ curr.main.pressure }}</span></div>
+                    <div class="{{ 'ico-' + curr.weather[0].icon }}">
+                    </div>
+                </div>
+                <div class="back green">
+                    <div><h3>{{ curr.name }}</h3></div>
+                    <div><span>Min temperature </span><span>{{ curr.main.temp_min }}&deg</span></div>
+                    <div><span>Max temperature </span><span>{{ curr.main.temp_max }}&deg</span></div>
+                    <div><span>Humidity </span><span>{{ curr.main.humidity }}</span></div>
+                    <div><span>Wind speed </span><span>{{ curr.wind.speed }} km/h</span></div>
+                    <div ng-repeat="weat in curr.weather">
+                        <div><span>Description </span><span>{{ weat.main }}</span></div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

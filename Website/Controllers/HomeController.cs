@@ -24,16 +24,6 @@ namespace Website.Controllers
             return View();
         }
 
-        public ActionResult Angular()
-        {
-            return View();
-        }
-
-        public ActionResult Main()
-        {
-            return View();
-        }
-
         public ActionResult Weathers()
         {
             return View();

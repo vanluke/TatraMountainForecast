@@ -3,7 +3,7 @@ using Model.Interfaces;
 
 namespace Model.Implementation
 {
-    public class CityPossition : ICityPossition
+    public class CityPossition 
     {
         public CityPossition(string location, string lat, string log)
         {

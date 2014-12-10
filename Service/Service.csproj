@@ -73,8 +73,9 @@
       <DependentUpon>201412061948250_SomeClarification.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="OpenWeatherService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WeatherService.cs" />
+    <Compile Include="WeatherOfflineService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

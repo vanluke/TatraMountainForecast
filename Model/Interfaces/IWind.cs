@@ -11,14 +11,16 @@ namespace Model.Interfaces
 {
     public interface IWind
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        int Id { get; }
-        [JsonProperty(PropertyName = "dir")]
-        string Dirrection { get; }
-        [JsonProperty(PropertyName = "speed")]
-        string Speed { get; }
-        [JsonProperty(PropertyName = "wind_unit")]
-        string Unit { get; }
+        double Speed { get; }
+        double Deg { get; }
+        //[Key]
+        //[DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        //int Id { get; }
+        //[JsonProperty(PropertyName = "dir")]
+        //string Dirrection { get; }
+        //[JsonProperty(PropertyName = "speed")]
+        //string Speed { get; }
+        //[JsonProperty(PropertyName = "wind_unit")]
+        //string Unit { get; }
     }
 }
