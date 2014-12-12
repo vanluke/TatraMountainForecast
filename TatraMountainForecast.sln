@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.22310.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{26F10D21-E224-4BE0-BF6A-AE7E8A813BD4}"
 EndProject
@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{67E600
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Website", "Website\Website.csproj", "{6F6411CE-A879-4AA6-865B-91A39876517B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceTests", "ServiceTests\ServiceTests.csproj", "{CCB4AEB8-F280-4B8F-BF09-FDE66B84617D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -44,6 +46,10 @@ Global
 		{6F6411CE-A879-4AA6-865B-91A39876517B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F6411CE-A879-4AA6-865B-91A39876517B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F6411CE-A879-4AA6-865B-91A39876517B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCB4AEB8-F280-4B8F-BF09-FDE66B84617D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCB4AEB8-F280-4B8F-BF09-FDE66B84617D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCB4AEB8-F280-4B8F-BF09-FDE66B84617D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCB4AEB8-F280-4B8F-BF09-FDE66B84617D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -82,6 +82,7 @@
     <Compile Include="Implementation\Weathers.cs" />
     <Compile Include="Implementation\Wind.cs" />
     <Compile Include="Interfaces\IClouds.cs" />
+    <Compile Include="Interfaces\IGeolocalizationService.cs" />
     <Compile Include="Interfaces\IPossition.cs" />
     <Compile Include="Interfaces\ICurrentWeather.cs" />
     <Compile Include="Interfaces\IDay.cs" />

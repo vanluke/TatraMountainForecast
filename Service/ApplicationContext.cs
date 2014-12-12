@@ -32,6 +32,6 @@ namespace Service
         public DbSet<ApplicationUserLogin> UserLogins { get; set; }
         public DbSet<CityPossition> CityPossitions { get; set; }
 
-        public DbSet<Weather> Weathers { get; set; }
+        public DbSet<WeatherContainer> Weathers { get; set; }
     }
 }

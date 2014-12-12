@@ -60,3 +60,4 @@ D:\New folder\TAi\TatraMountainForecase\Model\bin\Debug\Microsoft.AspNet.Identit
 D:\New folder\TAi\TatraMountainForecase\Model\bin\Debug\Newtonsoft.Json.xml
 D:\New folder\TAi\TatraMountainForecase\Model\obj\Debug\Model.dll
 D:\New folder\TAi\TatraMountainForecase\Model\obj\Debug\Model.pdb
+D:\New folder\TAi\TatraMountainForecase\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache

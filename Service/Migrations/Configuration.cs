@@ -1,16 +1,12 @@
 using System.Collections.Generic;
-using System.Diagnostics;
 using Model.Implementation;
 using Newtonsoft.Json;
 
 namespace Service.Migrations
 {
     using System;
-    using System.Data.Entity;
     using System.Data.Entity.Migrations;
-    using System.Linq;
     using System.IO;
-    using System.Reflection;
 
     internal sealed class Configuration : DbMigrationsConfiguration<Service.ApplicationContext>
     {
@@ -216,20 +212,20 @@ namespace Service.Migrations
            // context.CityPossitions.AddRange(cityPossitions);
            
 
-            var weatherSeed = File.ReadAllText(@"D:\Tmp\tmfc\TatraMountainForecase\Service\Seed\weather_seed.json");
+            var weatherSeed = File.ReadAllText(@"D:\New folder\TAi\TatraMountainForecase\Service\Seed\weather_seed.json");
 
-            var weatherData = JsonConvert.DeserializeObject<IEnumerable<Weather>>(weatherSeed);
+            var weatherData = JsonConvert.DeserializeObject<WeatherContainer>(weatherSeed);
 
             if (weatherData != null)
             {
-                //context.Weathers.AddRange(weatherData);
+                context.Weathers.Add(weatherData);
             }
 
             try
             {
-               // context.SaveChanges();
+                context.SaveChanges();
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 throw;
             }
