@@ -34,7 +34,7 @@ namespace Website.App_Start
 
             bundles.Add(new StyleBundle("~/Content/bootstrap").Include(
                       "~/Content/bootstrap.css"));
-                      //"~/Content/bootstrap-responsive.css"));
+            //"~/Content/bootstrap-responsive.css"));
 
             bundles.Add(new ScriptBundle("~/bundles/angular").Include(
                         "~/Scripts/angular.js",
@@ -51,6 +51,8 @@ namespace Website.App_Start
                         "~/App/services/service.js",
                         "~/App/services/modelService.js",
                         "~/App/services/weatherService.js",
+                         "~/App/services/weatherService.js",
+                          "~/App/controllers/mainController.js",
                         "~/App/controllers/weatherController.js",
                         "~/App/controllers/aboutController.js",
                         "~/App/controllers/contactController.js"));

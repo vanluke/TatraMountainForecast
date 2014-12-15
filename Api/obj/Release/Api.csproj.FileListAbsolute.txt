@@ -138,3 +138,17 @@ D:\New folder\TAi\TatraMountainForecase\Api\bin\System.Web.Http.Owin.xml
 D:\New folder\TAi\TatraMountainForecase\Api\obj\Release\Api.csprojResolveAssemblyReference.cache
 D:\New folder\TAi\TatraMountainForecase\Api\obj\Release\Api.dll
 D:\New folder\TAi\TatraMountainForecase\Api\obj\Release\Api.pdb
+D:\New folder\TAi\TatraMountainForecase\Api\bin\Autofac.Configuration.dll
+D:\New folder\TAi\TatraMountainForecase\Api\bin\Autofac.dll
+D:\New folder\TAi\TatraMountainForecase\Api\bin\Autofac.Extras.AggregateService.dll
+D:\New folder\TAi\TatraMountainForecase\Api\bin\Autofac.Extras.Attributed.dll
+D:\New folder\TAi\TatraMountainForecase\Api\bin\Autofac.Integration.WebApi.dll
+D:\New folder\TAi\TatraMountainForecase\Api\bin\Castle.Core.dll
+D:\New folder\TAi\TatraMountainForecase\Api\bin\Autofac.Extras.DomainServices.dll
+D:\New folder\TAi\TatraMountainForecase\Api\bin\Autofac.xml
+D:\New folder\TAi\TatraMountainForecase\Api\bin\Autofac.Configuration.xml
+D:\New folder\TAi\TatraMountainForecase\Api\bin\Autofac.Extras.AggregateService.xml
+D:\New folder\TAi\TatraMountainForecase\Api\bin\Autofac.Extras.Attributed.xml
+D:\New folder\TAi\TatraMountainForecase\Api\bin\Autofac.Integration.WebApi.xml
+D:\New folder\TAi\TatraMountainForecase\Api\bin\Castle.Core.xml
+D:\New folder\TAi\TatraMountainForecase\Api\bin\Autofac.Extras.DomainServices.xml

@@ -1,17 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Data.Entity;
-using System.Diagnostics;
-using System.IO;
-using System.Linq;
-using System.Net;
-using System.Reflection;
-using System.Text;
 using System.Threading.Tasks;
-using Model.Implementation;
 using Model.Interfaces;
-using Newtonsoft.Json;
-using Weather = Model.Implementation.Weather;
 
 namespace Service
 {
@@ -23,9 +13,9 @@ namespace Service
             throw new NotImplementedException();
         }
 
-        public Task<IWeatherContainer> GetAsync()
+        public async Task<IWeatherContainer> GetAsync()
         {
-            throw new NotImplementedException();
+            return await _context.Weathers.FirstOrDefaultAsync(v => v.Id.Equals(1));
         }
 
         public async Task<IWeatherContainer> GetAsync(string cityBox)
@@ -33,14 +23,14 @@ namespace Service
             return await _context.Weathers.FirstOrDefaultAsync(v => v.Id.Equals(1));
         }
 
-        public Task UpdateAsync(Weather wether)
+        public Task UpdateAsync(IWeather wether)
         {
             throw new NotImplementedException();
         }
 
-        public WeatherOfflineService()
+        public WeatherOfflineService(ApplicationContext context)
         {
-            _context = new ApplicationContext();
+            _context = context;
         }
 
         private readonly ApplicationContext _context;

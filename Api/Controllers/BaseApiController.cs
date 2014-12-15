@@ -8,5 +8,9 @@ namespace Api.Controllers
 {
     public abstract class BaseApiController : ApiController
     {
+        protected BaseApiController()
+        {
+            
+        }
     }
 }

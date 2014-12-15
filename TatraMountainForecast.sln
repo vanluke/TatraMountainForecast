@@ -20,6 +20,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Website", "Website\Website.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceTests", "ServiceTests\ServiceTests.csproj", "{CCB4AEB8-F280-4B8F-BF09-FDE66B84617D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebsiteTests", "WebsiteTests\WebsiteTests.csproj", "{C814CD9B-B3DC-4B05-A7A0-91C961EEE2E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Website.IntegrationTests", "Website.IntegrationTests\Website.IntegrationTests.csproj", "{F1F529E5-865A-42C8-948F-A8A6EA2BDE10}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -50,6 +54,14 @@ Global
 		{CCB4AEB8-F280-4B8F-BF09-FDE66B84617D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCB4AEB8-F280-4B8F-BF09-FDE66B84617D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCB4AEB8-F280-4B8F-BF09-FDE66B84617D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C814CD9B-B3DC-4B05-A7A0-91C961EEE2E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C814CD9B-B3DC-4B05-A7A0-91C961EEE2E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C814CD9B-B3DC-4B05-A7A0-91C961EEE2E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C814CD9B-B3DC-4B05-A7A0-91C961EEE2E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1F529E5-865A-42C8-948F-A8A6EA2BDE10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1F529E5-865A-42C8-948F-A8A6EA2BDE10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1F529E5-865A-42C8-948F-A8A6EA2BDE10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1F529E5-865A-42C8-948F-A8A6EA2BDE10}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

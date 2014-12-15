@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Threading.Tasks;
-using Model.Implementation;
+﻿using System.Threading.Tasks;
 
 namespace Model.Interfaces
 {
@@ -8,7 +6,7 @@ namespace Model.Interfaces
     {
         Task<IWeatherContainer> GetAsync();
         Task<IWeatherContainer> GetAsync(string city);
-        Task UpdateAsync(Weather wether);
+        Task UpdateAsync(IWeather wether);
         Task DeleteAsync(string city);
     }
 }

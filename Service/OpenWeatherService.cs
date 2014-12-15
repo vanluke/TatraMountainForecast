@@ -1,18 +1,19 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
 using System.Net.Http;
 using System.Net.Http.Headers;
-using System.Text;
 using System.Threading.Tasks;
-using Model.Implementation;
 using Model.Interfaces;
+using Service.Implementation;
 
 namespace Service
 {
     public class OpenWeatherService : IWeatherService
     {
+        public Task UpdateAsync(IWeather wether)
+        {
+            throw new NotImplementedException();
+        }
+
         public Task DeleteAsync(string city)
         {
             throw new NotImplementedException();
@@ -43,14 +44,9 @@ namespace Service
             }
         }
 
-        public Task<IWeatherContainer> GetAsync(string city)
+        public async Task<IWeatherContainer> GetAsync(string city)
         {
-            throw new NotImplementedException();
-        }
-
-        public Task UpdateAsync(Weather wether)
-        {
-            throw new NotImplementedException();
+            return await GetAsync();
         }
 
         private const string Apikey = "a27c7d325a06178a1b9b0bdb318517b4";

@@ -1,4 +1,8 @@
-﻿<div ng-controller="WeathersController" class="container page">
+﻿@{
+
+    Layout = null;
+}
+<div ng-controller="WeatherController" class="container page">
     <div class="wrap">
         <div class="btn-big red flip-container" ng-repeat="curr in myData.list">
             <div class="flipper">

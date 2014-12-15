@@ -38,9 +38,10 @@ namespace Api
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
-            GlobalConfiguration.Configuration.Formatters.Insert(0, new TextMediaTypeFormatter());
-            //config.Formatters.Add(new TextMediaTypeFormatter());
-            //config.Formatters.Add(new TextPlainXmlMediaTypeFormatter());
+
+            GlobalConfiguration.Configuration.Formatters.JsonFormatter.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
+            GlobalConfiguration.Configuration.Formatters.Remove(GlobalConfiguration.Configuration.Formatters.XmlFormatter);
+            // GlobalConfiguration.Configuration.Formatters.Insert(0, new TextMediaTypeFormatter());
         }
     }
 }

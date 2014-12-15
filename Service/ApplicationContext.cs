@@ -1,5 +1,5 @@
-﻿using Model.Implementation;
-using System.Data.Entity;
+﻿using System.Data.Entity;
+using Service.Implementation;
 
 namespace Service
 {

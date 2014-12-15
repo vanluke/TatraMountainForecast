@@ -76,7 +76,28 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/17/2014 06:45:29</publishTime>
     </File>
     <File Include="bin/Api.dll">
-      <publishTime>12/10/2014 16:07:55</publishTime>
+      <publishTime>12/15/2014 07:47:57</publishTime>
+    </File>
+    <File Include="bin/Autofac.Configuration.dll">
+      <publishTime>12/13/2014 17:59:20</publishTime>
+    </File>
+    <File Include="bin/Autofac.dll">
+      <publishTime>12/13/2014 17:54:14</publishTime>
+    </File>
+    <File Include="bin/Autofac.Extras.AggregateService.dll">
+      <publishTime>12/13/2014 17:59:27</publishTime>
+    </File>
+    <File Include="bin/Autofac.Extras.Attributed.dll">
+      <publishTime>12/13/2014 17:59:31</publishTime>
+    </File>
+    <File Include="bin/Autofac.Extras.DomainServices.dll">
+      <publishTime>12/13/2014 18:54:31</publishTime>
+    </File>
+    <File Include="bin/Autofac.Integration.WebApi.dll">
+      <publishTime>12/13/2014 17:59:17</publishTime>
+    </File>
+    <File Include="bin/Castle.Core.dll">
+      <publishTime>12/13/2014 17:59:27</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
       <publishTime>11/17/2014 07:08:31</publishTime>
@@ -124,7 +145,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/17/2014 06:45:30</publishTime>
     </File>
     <File Include="bin/Model.dll">
-      <publishTime>12/10/2014 16:07:52</publishTime>
+      <publishTime>12/13/2014 19:06:34</publishTime>
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
       <publishTime>11/17/2014 07:09:18</publishTime>
@@ -133,7 +154,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/17/2014 07:09:18</publishTime>
     </File>
     <File Include="bin/Service.dll">
-      <publishTime>12/10/2014 16:07:54</publishTime>
+      <publishTime>12/15/2014 07:47:56</publishTime>
     </File>
     <File Include="bin/System.Net.Http.Formatting.dll">
       <publishTime>11/17/2014 07:09:18</publishTime>
@@ -205,7 +226,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/17/2014 06:45:28</publishTime>
     </File>
     <File Include="packages.config">
-      <publishTime>12/10/2014 12:52:02</publishTime>
+      <publishTime>12/13/2014 17:59:31</publishTime>
     </File>
     <File Include="Scripts/bootstrap.js">
       <publishTime>11/17/2014 06:45:28</publishTime>
@@ -253,7 +274,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/17/2014 06:45:28</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>11/17/2014 06:45:28</publishTime>
+      <publishTime>12/13/2014 19:03:51</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>11/17/2014 06:45:28</publishTime>
@@ -262,7 +283,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/17/2014 06:45:28</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>12/10/2014 16:07:55</publishTime>
+      <publishTime>12/15/2014 07:47:57</publishTime>
     </File>
   </ItemGroup>
 </Project>

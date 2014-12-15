@@ -1,6 +1,6 @@
 using System.Collections.Generic;
-using Model.Implementation;
 using Newtonsoft.Json;
+using Service.Implementation;
 
 namespace Service.Migrations
 {
